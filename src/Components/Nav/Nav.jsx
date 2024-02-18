@@ -10,10 +10,10 @@ export default function Nav() {
       </div>
       <ul>
         <li>
-        <Link to="/">Home</Link>
+        <Link to="/vite-ghpages">Home</Link>
         </li>
         <li>
-        <Link to="/topics">Topics</Link>
+        <Link to="vite-ghpages/topics">Topics</Link>
         </li>
       </ul>
     </div>

@@ -25,7 +25,6 @@ const router = createBrowserRouter(
     loader={()=> postData}/>
 
     <Route
-
     path = "vite-ghpages/post/:id"
     element={<Post/>}
     loader={({params})=>{
