@@ -18,14 +18,14 @@ const router = createBrowserRouter(
   createRoutesFromElements(
   <Route path = "vite-ghpages/" element={<App />}>
     <Route index element={<Home/>}/>
-    <Route
 
-    path = "vite-ghpages/topics"
+    <Route
+    path = "in/topics"
     element={<TopicList/>}
     loader={()=> postData}/>
 
     <Route
-    path = "vite-ghpages/post/:id"
+    path = "in/topics/in/post/:id"
     element={<Post/>}
     loader={({params})=>{
       const post = postData.find((item)=>item.id === +params.id)

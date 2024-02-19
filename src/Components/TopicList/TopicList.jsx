@@ -6,7 +6,7 @@ export default function TopicList() {
 
   const displayTopics = posts.map((post) => {
     return <li key={post.id}>
-      <Link to = {`/post/${post.id}`}>{post.title}</Link>
+      <Link to = {`in/post/${post.id}`}>{post.title}</Link>
     </li>;
   });
   return (
