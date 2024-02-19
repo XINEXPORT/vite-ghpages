@@ -16,7 +16,8 @@
   .Nav ul {
     width: 25%;
     display: flex;
-    align-items: center;
+    align-items: left;
+    flex-direction: column;
     justify-content: space-evenly;
     font: 24px 'Roboto Slab', sans-serif;
   }
