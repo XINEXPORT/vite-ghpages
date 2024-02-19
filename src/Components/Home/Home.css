@@ -1,5 +1,6 @@
 .Home {
-    background: white url('./../../images/background.png') center/cover no-repeat;
+    margin-top: 10px;
+    background: url('./../../images/background.png') center/cover no-repeat;
     width: 100%;
     min-height: 100vh;
     display: flex;
