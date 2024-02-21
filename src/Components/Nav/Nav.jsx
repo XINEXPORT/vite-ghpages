@@ -5,9 +5,9 @@ import {Link} from 'react-router-dom'
 export default function Nav() {
   return (
     <div className="Nav">
-      <div>
+      {/* <div>
         <img src={logo} alt="dm logo" />
-      </div>
+      </div> */}
       <ul>
         <li>
         <Link to="/vite-ghpages">Home</Link>
