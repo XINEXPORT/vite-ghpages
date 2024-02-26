@@ -1,12 +1,11 @@
 import './Home.css';
+import styles from '../../styles';
 
 export default function Home() {
   return (
-    <div className="Home">
-      <h1>Texas Coding Club</h1>
-      <h2>Head over to the topic browser to see all the latest posts!</h2>
-      {/* <img src = "https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg" 
-            class="text-center sm:text-left"/> */}
+    <div className = "flex flex-row justify-between items-center w-full">
+      <h1 className = "flex-1 font-helvetica font-semibold ss:text-[72px] text-[52px] text-black ss:leading-[100px] leading-[75px]">Texas Coding Club</h1>
+      <h2 className =  {`${styles.paragraph} max-w-[470px], mt-5`}>Head over to the topic browser to see all the latest posts!</h2>
     </div>
   );
 }
