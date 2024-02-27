@@ -1,12 +1,9 @@
-import logo from '../../images/dm_white_logo.png';
 import {Link} from 'react-router-dom'
+
 
 export default function Nav() {
   return (
-    <div className="Nav">
-      {/* <div>
-        <img src={logo} alt="dm logo" />
-      </div> */}
+    <nav className = "w-full flex py-6 justify-between items-center navbar">
       <ul>
         <li>
         <Link to="/vite-ghpages">Home</Link>
@@ -14,7 +11,11 @@ export default function Nav() {
         <li>
         <Link to="in/topics">Topics</Link>
         </li>
+        <li>
+        <Link to="in/about">About</Link>
+        </li>
+        
       </ul>
-    </div>
+    </nav>
   );
 }
