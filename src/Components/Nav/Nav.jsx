@@ -3,10 +3,10 @@ import {Link} from 'react-router-dom'
 
 export default function Nav() {
   return (
-    <div className="Nav">
-      {/* <div>
+    <section className="Nav">
+      <div>
         <img src={logo} alt="dm logo" />
-      </div> */}
+      </div>
       <ul>
         <li>
         <Link to="/vite-ghpages">Home</Link>
@@ -15,6 +15,7 @@ export default function Nav() {
         <Link to="in/topics">Topics</Link>
         </li>
       </ul>
-    </div>
+    </section>
   );
 }
+
