@@ -1,5 +1,6 @@
 import {Link, useLoaderData} from 'react-router-dom';
-import './TopicList.css';
+import styles from '../styles';
+
 
 export default function TopicList() {
   const posts = useLoaderData();
@@ -10,9 +11,9 @@ export default function TopicList() {
     </li>;
   });
   return (
-    <div className="TopicList">
-      <h1>Latest Blog Posts...</h1>
-      <ul>{displayTopics}</ul>
+    <div >
+      <h1 className =  {`${styles.paragraph} max-w-[470px], mt-5`}>Latest Blog Posts...</h1>
+      <ul className =  {`${styles.paragraph} max-w-[470px], mt-5`}>{displayTopics}</ul>
     </div>
   );
 }

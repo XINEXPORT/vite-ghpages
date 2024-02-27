@@ -8,9 +8,10 @@ import {
   createRoutesFromElements,
 } from 'react-router-dom';
 import App from './App.jsx';
-import Home from './Components/Home/Home.jsx';
-import TopicList from './Components/TopicList/TopicList.jsx';
-import Post from './Components/Post/Post.jsx';
+import Home from './Components/Home.jsx';
+import TopicList from './Components/TopicList.jsx';
+import Post from './Components/Post.jsx';
+import About from './Components/About.jsx';
 import postData from './data/post_data.json';
 
 
@@ -22,6 +23,11 @@ const router = createBrowserRouter(
     <Route
     path = "in/topics"
     element={<TopicList/>}
+    loader={()=> postData}/>
+
+<Route
+    path = "in/about"
+    element={<About/>}
     loader={()=> postData}/>
 
     <Route
