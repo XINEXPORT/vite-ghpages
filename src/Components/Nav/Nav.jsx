@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export default function Nav() {
   return (
-    <section className="Nav">
+    <section className=''>
       <div>
         <img src={logo} alt="dm logo" />
       </div>
