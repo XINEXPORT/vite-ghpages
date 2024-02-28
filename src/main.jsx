@@ -13,12 +13,21 @@ import TopicList from './Components/TopicList.jsx';
 import Post from './Components/Post.jsx';
 import About from './Components/About.jsx';
 import postData from './data/post_data.json';
+import ErrorPage from './Components/ErrorPage.jsx';
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-  <Route path = "vite-ghpages/" element={<App />}>
-    <Route index element={<Home/>}/>
+
+  <Route 
+  path = "vite-ghpages/" 
+  element={<App />}
+  errorElement={<ErrorPage />}
+  >
+
+    <Route 
+    index element={<Home/>}
+    />
 
     <Route
     path = "in/topics"
