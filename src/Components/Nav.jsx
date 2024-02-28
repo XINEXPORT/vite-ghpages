@@ -1,12 +1,12 @@
-import logo from '../../images/dm_white_logo.png';
+// import logo from '../../images/dm_white_logo.png';
 import {Link} from 'react-router-dom'
 
 export default function Nav() {
   return (
-    <section className=''>
-      <div>
+    <div className="Nav">
+      {/* <div>
         <img src={logo} alt="dm logo" />
-      </div>
+      </div> */}
       <ul>
         <li>
         <Link to="/vite-ghpages">Home</Link>
@@ -15,7 +15,6 @@ export default function Nav() {
         <Link to="in/topics">Topics</Link>
         </li>
       </ul>
-    </section>
+    </div>
   );
 }
-
