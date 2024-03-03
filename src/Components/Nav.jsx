@@ -1,13 +1,13 @@
 // import logo from '../../images/dm_white_logo.png';
 import {Link} from 'react-router-dom'
-
+import logo from '../images/TCClogo.svg'
 export default function Nav() {
   return (
-    <div className="Nav">
-      {/* <div>
-        <img src={logo} alt="dm logo" />
-      </div> */}
-      <ul>
+    <nav className="w-full flex items-center">
+
+        <img src={logo} alt="dm logo" className='w-[180px]'/>
+
+      <ul className='list-none flex w-full justify-evenly'>
         <li>
         <Link to="/vite-ghpages">Home</Link>
         </li>
@@ -15,6 +15,7 @@ export default function Nav() {
         <Link to="in/topics">Topics</Link>
         </li>
       </ul>
-    </div>
+
+    </nav >
   );
 }
