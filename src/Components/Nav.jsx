@@ -14,6 +14,9 @@ export default function Nav() {
         <li>
         <Link to="in/topics">Topics</Link>
         </li>
+        <li>
+        <Link to="in/about">About</Link>
+        </li>
       </ul>
 
     </nav >
