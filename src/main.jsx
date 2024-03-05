@@ -12,6 +12,7 @@ import Home from './Components/Home.jsx';
 import TopicList from './Components/TopicList.jsx';
 import Post from './Components/Post.jsx';
 import About from './Components/About.jsx';
+import Contact from './Components/Contact.jsx';
 import postData from './data/post_data.json';
 import userData from './data/user_data.json';
 import ErrorPage from './Components/ErrorPage.jsx';
@@ -38,6 +39,11 @@ const router = createBrowserRouter(
 <Route
     path = "in/about"
     element={<About/>}
+    loader={()=> userData}/>
+
+<Route
+    path = "in/contact"
+    element={<Contact/>}
     loader={()=> userData}/>
 
     <Route
