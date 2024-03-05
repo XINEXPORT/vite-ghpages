@@ -2,11 +2,13 @@
     {
       "id": 1,
       "name": "Joe Aguado",
+      "img": "../src/images/profileimg/joeaguado.png",
       "bio": "Joe Aguado is a seasoned professional with a background in Financial Advisory and Business Administration Management. Transitioning into the realm of technology, he now excel as a Full Stack Web Developer, proficient in both front-end and back-end development. Their diverse expertise enables them to bridge the gap between business strategy and technical implementation, delivering innovative solutions for modern challenges."
     },
     {
       "id": 2,
       "name": "Christine Hoang",
+      "img": "../src/images/profileimg/christinehoang.jpg",
       "bio": "Christine Hoang is a versatile professional adept at juggling roles as a Full Stack Developer and Product Manager. With a keen eye for detail and a commitment to quality assurance, they ensure that every project meets the highest standards. Known for their empathetic leadership style, Christine leads her teams with kindness and compassion, fostering a collaborative environment where everyone can thrive."
     }
 ]
