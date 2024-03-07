@@ -4,7 +4,7 @@ import styles from './styles';
 
 export default function App() {
   return (
-    <div className= {`flex flex-col`}>
+    <div className= {`flex flex-col w-full overflow-hidden bg-primary`}>
       <div className = {``} >
       <Nav />
       </div>
