@@ -19,7 +19,7 @@ export default function Nav() {
         <li className='pl-10'>
         <Link to="in/about">About</Link>
         </li>
-        <li>
+        <li className='pl-10'>
         <Link to="in/contact">Contact</Link>
         </li>
       </ul>
