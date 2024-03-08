@@ -4,8 +4,8 @@ import {useLoaderData} from 'react-router-dom';
 const Contact = () => {
 const users = useLoaderData();
   return (
-    <div >
-        <h1 className =  {`${styles.paragraph} max-w-[480px], mt-5 flex justify-center font-semibold`}>Contact</h1>
+    <div className = "w-screen h-screen">
+        <h1 className =  {`${styles.heading1} max-w-[480px], mt-5 flex justify-center font-semibold`}>Contact</h1>
         <h2 className =  {`${styles.paragraph} max-w-[480px], mt-5 flex justify-center`}>We would love to hear from you!</h2>
         <p className =  {`${styles.paragraph} max-w-[480px], mt-5 flex justify-center`}>If you would like to contribute to our blog, arrange a coffee chat, meet us for our next study session, or pick our brains, email us at </p>
            <a className =  {`${styles.paragraph} max-w-[480px], mt-5 flex justify-center hover:underline text-blue-700`} href = "mailto:texascodingclub@gmail.com">texascodingclub@gmail.com</a>

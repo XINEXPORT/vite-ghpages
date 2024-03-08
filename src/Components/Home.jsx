@@ -5,7 +5,7 @@ import blackskull from '../images/nightlogos/blackskull.png'
 
 const Home = () =>{
   return (
-    <section id = "home" className = {``}>
+    <section id = "home" className = "w-screen h-screen">
       
       <div className='flex flex-col sm:flex-row justify-center items-center'>
 
@@ -20,12 +20,12 @@ const Home = () =>{
 
       <img src = {Hero6} alt = "deserthero" className = " relative z-[5]"/>
 
-      <div className = "absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient">
+      {/* <div className = "absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient">
       </div> 
       <div className = "absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient">
       </div>
       <div className = "absolute z-[0] w-[20%] h-[40%] right-20 bottom-20 orange__gradient">
-      </div>
+      </div> */}
       </div>
     </section>
   );
