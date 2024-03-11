@@ -5,11 +5,11 @@ import styles from '../styles';
 
 export default function Nav() {
   return (
-    <nav className={`px-4 sm:px-10 w-full flex items-center bg-primary text-tccred pt-4`}>
+    <nav className={`z-10 px-4 sm:px-10 w-full flex items-center bg-primary text-tccred pt-4`}>
 
         <img src={logo} alt="dm logo" className='w-[180px] cursor-pointer'/>
 
-      <ul className='list-none flex w-full justify-end'>
+      <ul className=' list-none flex w-full justify-end'>
         <li className=''>
         <Link to="/vite-ghpages">Home</Link>
         </li>
