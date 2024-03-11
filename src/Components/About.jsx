@@ -8,7 +8,7 @@ const displayBio = users.map((user)=>{
   return <div key={user.id} className = "mb-10">
           <br/>
           <h1 className = "font-semibold flex justify-center mb-5 ss:text-[30px] text-[30px] ">{user.name}</h1>
-          <img className = "flex justify-center mb-5 w-[310px] rounded-full " src = {user.img}/>
+          <img className = "flex justify-center mb-5 w-[310px] rounded-full" src = {user.img}/>
           <p className =  {`${styles.paragraph} max-w-[470px], mt-5`}>{user.bio}</p>
           </div>
 })
