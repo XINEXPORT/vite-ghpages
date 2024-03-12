@@ -1,4 +1,4 @@
-import {useLoaderData} from 'react-router-dom';
+import userData from '../data/user_data.json'
 import styles from '../styles';
 import photo from '../images/profileimg/joeaguado2.jpeg'
 import { AboutData } from '../constants';
