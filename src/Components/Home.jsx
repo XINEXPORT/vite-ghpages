@@ -1,6 +1,7 @@
 import styles from '../styles';
 import Hero6 from '../images/Hero6.png'
 import blackskull from '../images/nightlogos/blackskull.png'
+import photo from '../images/profileimg/joeaguado2.jpeg'
 
 
 const Home = () =>{
@@ -27,6 +28,7 @@ const Home = () =>{
       {/* <div className = "absolute z-[0] w-[40%] h-[30%] rounded-full right-5 yellow__gradient" /> */}
       {/* <div className = "absolute z-[0] w-[20%] h-[40%] right-20 bottom-20 orange__gradient" /> */}
       </div>
+
     </section>
   );
 }
