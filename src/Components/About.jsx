@@ -1,10 +1,10 @@
-import {useLoaderData} from 'react-router-dom';
+import userData from '../data/user_data.json'
 import styles from '../styles';
+import { useState } from 'react';
 
 const About = () => {
-const users = useLoaderData();
 
-const displayBio = users.map((user)=>{
+const displayBio = userData.map((user)=>{
   return <div key={user.id} className = "">
           <br/>
           <div className='flex flex-col items-center'>
