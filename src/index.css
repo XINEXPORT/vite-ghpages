@@ -124,17 +124,18 @@
   background: var(--black-gradient);
 }
 
-.orange__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #f79800 100%);
-  filter: blur(123px);
-}
 
 .pink__gradient {
-  background: linear-gradient(180deg, #f61010 0%, #ff0040 100%);
-  filter: blur(250px);
+  background: linear-gradient(180deg, #fc0303 0%, #ff0040 100%);
+  filter: blur(170px);
+}
+
+.orange__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #f79800 100%);
+  filter: blur(100px);
 }
 
 .yellow__gradient {
-  background: rgba(255, 234, 1, 0.83);
-  filter: blur(200px);
+  background: rgb(249, 228, 0);
+  filter: blur(150px);
 }

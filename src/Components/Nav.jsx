@@ -5,9 +5,9 @@ import styles from '../styles';
 
 export default function Nav() {
   return (
-    <nav className={`z-10 px-4 sm:px-10 w-full flex items-center bg-primary text-tccred pt-4`}>
+    <nav className={`z-10 w-full flex items-center bg-primary text-tccred `}>
 
-        <img src={logo} alt="dm logo" className='w-[180px] cursor-pointer'/>
+        <img src={logo} alt="dm logo" className='w-[240px] cursor-pointer'/>
 
       <ul className=' list-none flex w-full justify-end'>
         <li className=''>

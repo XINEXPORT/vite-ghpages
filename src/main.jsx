@@ -16,6 +16,7 @@ import Contact from './Components/Contact.jsx';
 import postData from './data/post_data.json';
 import userData from './data/user_data.json';
 import ErrorPage from './Components/ErrorPage.jsx';
+import Hero from './Components/Hero.jsx';
 
 
 const router = createBrowserRouter(
@@ -28,7 +29,10 @@ const router = createBrowserRouter(
   >
 
     <Route 
-    index element={<Home/>}
+    index element={
+    // <Home/>
+    <Hero />
+  }
     />
 
     <Route
