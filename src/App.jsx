@@ -4,11 +4,21 @@ import styles from './styles';
 
 export default function App() {
   return (
-    <div className= {`flex flex-col w-full overflow-hidden bg-primary`}>
-      <div className = {``} >
-      <Nav />
+    <div className= {`w-full overflow-hidden bg-primary`}>
+      
+      <div className = {`${styles.paddingX} ${styles.flexCenter}`} >
+        
+        <div className={`${styles.boxWidth}`}>
+          <Nav />
+        </div>
       </div>
-      <Outlet />
+
+      <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Outlet />
+        </div>
+      </div>
+
     </div>
 
   );
