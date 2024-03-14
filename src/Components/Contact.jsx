@@ -36,17 +36,18 @@ const sendEmail = (e) =>{
         <p className =  {`${styles.paragraph} max-w-[480px], mt-5 flex justify-center`}>If you would like to contribute to our blog, arrange a coffee chat, meet us for our next study session, or pick our brains, email us at: </p>
            <a className =  {`${styles.paragraph} max-w-[480px], mt-5 flex justify-center hover:underline text-blue-700`} href = "mailto:aguado.joe@gmail.com">aguado.joe@gmail.com</a>
 
-           <form ref={form} onSubmit={sendEmail}>
+           <form ref={form} onSubmit={sendEmail} className ="flex-col justify-center text-center">
             <label className = {`${styles.paragraph} max-w-[480px], mt-5 flex justify-center text-center`}>Name</label>
-            <input type="text" required placeholder="Name" name="name" />
+            <input type="text" required placeholder="Name" name="name" className = "flex-col justify-center text-center"/>
 
             <label className =  {`${styles.paragraph} max-w-[480px], mt-5 flex justify-center text-center`}>Email</label>
-            <input type="email" required placeholder="Email" name="email" />
+            <input type="email" required placeholder="Email" name="email" className = "flex-col justify-center text-center" />
 
             <label className =  {`${styles.paragraph} max-w-[480px], mt-5 flex justify-center text-center`}>Message</label>
-            <textarea rows={8} placeholder="Message" name="message" />
-
+            <textarea rows={8} placeholder="Message" name="message" className = "flex-col justify-center text-center"/>
+            <div>
             <button>Submit</button>
+            </div>
           </form>
     </div>
   )
