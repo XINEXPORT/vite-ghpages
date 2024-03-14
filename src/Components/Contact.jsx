@@ -29,24 +29,24 @@ const sendEmail = (e) =>{
 
 
   return (
-    <div className = "w-screen h-screen">
+    <div className = {`${styles.paragraph} mb-5`}>
         <h1 className =  {`${styles.heading1} max-w-[480px], mt-5 flex justify-center font-semibold`}>Contact</h1>
-        <h2 className =  {`${styles.paragraph} max-w-[480px], mt-5 flex justify-center text-center`}>We would love to hear from you!        <br />
+        <h2 className =  {`${styles.paragraph} ${styles.marginX} max-w-[480px], mt-5 flex justify-center text-center`}>We would love to hear from you!        <br />
          We are working quickly to establish a new domain and email service</h2>
-        <p className =  {`${styles.paragraph} max-w-[480px], mt-5 flex justify-center`}>If you would like to contribute to our blog, arrange a coffee chat, meet us for our next study session, or pick our brains, email us at: </p>
+        <p className =  {`${styles.paragraph} ${styles.marginX} max-w-[480px], mt-5 flex justify-center`}>If you would like to contribute to our blog, arrange a coffee chat, meet us for our next study session, or pick our brains, email us at: </p>
            <a className =  {`${styles.paragraph} max-w-[480px], mt-5 flex justify-center hover:underline text-blue-700`} href = "mailto:aguado.joe@gmail.com">aguado.joe@gmail.com</a>
 
            <form ref={form} onSubmit={sendEmail} className ="flex-col justify-center text-center">
             <label className = {`${styles.paragraph} max-w-[480px], mt-5 flex justify-center text-center`}>Name</label>
-            <input type="text" required placeholder="Name" name="name" className = "flex-col justify-center text-center"/>
+            <input type="text" required placeholder="Name" name="name" className = "flex-col justify-center text-center rounded-lg "/>
 
             <label className =  {`${styles.paragraph} max-w-[480px], mt-5 flex justify-center text-center`}>Email</label>
-            <input type="email" required placeholder="Email" name="email" className = "flex-col justify-center text-center" />
+            <input type="email" required placeholder="Email" name="email" className = "flex-col justify-center text-center rounded-lg" />
 
             <label className =  {`${styles.paragraph} max-w-[480px], mt-5 flex justify-center text-center`}>Message</label>
-            <textarea rows={8} placeholder="Message" name="message" className = "flex-col justify-center text-center"/>
+            <textarea rows={8} placeholder="Message" name="message" className = "flex-col justify-center text-center rounded-lg "/>
             <div>
-            <button>Submit</button>
+            <button className = "bg-orange-600 hover:bg-green-400 text-white font-bold py-2 px-4 rounded">Submit</button>
             </div>
           </form>
     </div>
