@@ -15,7 +15,8 @@ module.exports = {
         poppins: ["Helvetica", "Arial", "sans-serif"],
         rye: ["rye", "serif"],
         wellfleet: ["wellfleet", "serif"],
-        lobster:["lobster", "serif"]
+        lobster:["lobster", "serif"],
+        stint:['Stint Ultra Expanded', 'sans-serif']
       },
     },
     screens: {

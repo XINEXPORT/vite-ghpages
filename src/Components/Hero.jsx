@@ -6,9 +6,17 @@ const Hero = () => {
   return (
     <section id='Home' className={`${styles.padding} flex flex-col sm:flex-row `}>
 
-    <div id='bio' className='flex-1 flex items-center justify-center text-center  mb-4 md:mb-0 text-tccred  text-[50px]'>
+    <div id='bio' className='flex-1 flex items-center justify-center text-center  mb-4 md:mb-0 text-tccred  '>
         <div className='z-[10]'>
-        A Dallas-based web development blog starring Christine Hoang & Joe Aguado
+        <div className='uppercase font-stint text-[50px]'>
+        a <br/> web development
+        <br/> blog 
+        </div>
+
+        <div className='font-lobster text-[40px] tracking-wide pt-10'>starring 
+          </div>
+<div className='font-wellfleet text-[45px] pt-2'>
+Christine Hoang & Joe Aguado</div>
         </div>
     </div>
 
