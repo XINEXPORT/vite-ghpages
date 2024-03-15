@@ -7,8 +7,10 @@ export default function Nav() {
   return (
     <nav className={`z-10 w-full flex items-center bg-primary text-tccred overflow-hidden`}>
 
-        <img src={logo} alt="dm logo" className='w-[180px] sm:w-[220px] cursor-pointer'/>
-    
+          <Link to="/vite-ghpages">
+          <img src={logo} alt="dm logo" className='w-[180px] sm:w-[220px] cursor-pointer'/>
+          </Link>
+
     
         <div className='w-full h-full flex flex-col'>
           <ul className='h-full list-none flex flex-col items-end sm:flex-row w-full justify-end font-wellfleet text-[22px] md:text-[28px] xs:tracking-wider'>
