@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <section id='Home' className={`${styles.padding} flex flex-col sm:flex-row `}>
 
-    <div id='bio' className='flex-1 flex items-center justify-center text-center  mb-4 md:mb-0 text-tccred'>
-        <div>
+    <div id='bio' className='flex-1 flex items-center justify-center text-center  mb-4 md:mb-0 text-tccred  text-[50px]'>
+        <div className='z-[10]'>
         A Dallas-based web development blog starring Christine Hoang & Joe Aguado
         </div>
     </div>

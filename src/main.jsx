@@ -17,7 +17,7 @@ import postData from './data/post_data.json';
 import userData from './data/user_data.json';
 import ErrorPage from './Components/ErrorPage.jsx';
 import Hero from './Components/Hero.jsx';
-
+import BlogTest from './Components/BlogTest.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -32,6 +32,7 @@ const router = createBrowserRouter(
     index element={
     // <Home/>
     <Hero />
+    // <BlogTest />
   }
     />
 
