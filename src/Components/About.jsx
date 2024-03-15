@@ -6,7 +6,7 @@ import { AboutData } from '../constants';
 const About = () => {
 
   return (
-    <section className={`bg-primary flex flex-col sm:flex-row justify-center items-center text-center`}>
+    <section className={`bg-primary flex flex-col sm:flex-row justify-center items-center text-center mb-10`}>
   
       {AboutData.map((person) => (
         <div key={person.id} className='flex flex-col items-center p-4 max-w-[470px]'>

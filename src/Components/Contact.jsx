@@ -29,7 +29,7 @@ const sendEmail = (e) =>{
 
 
   return (
-    <div className = {`${styles.paragraph} mb-5`}>
+    <div className = {`${styles.paragraph} mb-10`}>
         <h1 className =  {`${styles.heading1} max-w-[480px], mt-5 flex justify-center font-semibold`}>Contact</h1>
         <h2 className =  {`${styles.paragraph} ${styles.marginX} max-w-[480px], mt-5 flex justify-center text-center`}>We would love to hear from you!        <br />
          We are working quickly to establish a new domain and email service</h2>
