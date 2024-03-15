@@ -13,6 +13,9 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Helvetica", "Arial", "sans-serif"],
+        rye: ["rye", "serif"],
+        wellfleet: ["wellfleet", "serif"],
+        lobster:["lobster", "serif"]
       },
     },
     screens: {
@@ -24,5 +27,7 @@ module.exports = {
       xl: "1700px",
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };
