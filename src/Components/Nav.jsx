@@ -1,9 +1,14 @@
 // import logo from '../../images/dm_white_logo.png';
 import {Link} from 'react-router-dom'
+import { useState } from 'react';
 import logo from '../images/TCClogo.svg'
 import styles from '../styles';
 
 export default function Nav() {
+
+const [toggle, setToggle] = useState(false);
+
+
   return (
     <nav className={`z-10 w-full flex items-center bg-primary text-tccred overflow-hidden`}>
 
