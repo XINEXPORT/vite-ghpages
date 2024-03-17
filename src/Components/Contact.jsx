@@ -20,9 +20,12 @@ const sendEmail = (e) =>{
       .then(
         (result) => {
           setSuccess(true);
+          setError(false)
+          form.current.reset();
         },
         (error) => {
           setError(true);
+          setSuccess(false)
         },
       );
   };
@@ -30,17 +33,8 @@ const sendEmail = (e) =>{
 
   return (
     <div className = {`${styles.paragraph} max-w-[480px], flex flex-col justify-center`}>
-        <h1 className ={`${styles.heading1} flex justify-center font-semibold`}>Contact</h1>
+        <h1 className ={`${styles. heading1} flex justify-center text-center font-semibold`}>Contact</h1>
 
-
-  
-        {/* <li className = "flex justify-center">
-            <ul>Sharing your story</ul>
-            <ul>Instructional tutorials</ul>
-            <ul>Personal anecdotes related to your tech journey</ul>
-            <ul>Projects your working on</ul>
-            <ul>Collaboration ideas</ul>
-          </li> */}
        
 
         <h2 className =  {`${styles.paragraph} ${styles.marginX} flex justify-center`}>We would love to hear from you!      </h2>
@@ -56,10 +50,13 @@ const sendEmail = (e) =>{
             </div>
 
             <div>
-            <textarea rows={8} placeholder="Message" name="message" className = "rounded-lg md:w-1/2 px-4 py-4 mt-8 border-2"/>
+            <textarea rows="10" cols = "24" placeholder="Message" name="message" className = "rounded-lg md:w-1/2 px-4 py-4 mt-8 border-2"/>
             </div>
+
             <div>
-            <button className = "bg-orange-600 hover:bg-green-500 text-white font-bold py-2 px-4 rounded ">Submit</button>
+            <button className = "bg-orange-600 hover:bg-green-500 text-white font-bold py-2 px-4 rounded mb-10">Submit</button>
+            {error && "Error"}
+            {success && "Message Sent!"}
             </div>
           </form>
 
