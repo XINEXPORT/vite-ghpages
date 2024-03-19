@@ -7,6 +7,9 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from 'react-router-dom';
+
+import { BrowserRouter as Router } from 'react-router-dom';
+
 import App from './App.jsx';
 import Home from './Components/Home.jsx';
 import TopicList from './Components/TopicList.jsx';
@@ -18,6 +21,7 @@ import userData from './data/user_data.json';
 import ErrorPage from './Components/ErrorPage.jsx';
 import Hero from './Components/Hero.jsx';
 import BlogTest from './Components/BlogTest.jsx';
+// import markdownContent from './markdown/Markdown.md'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -26,6 +30,7 @@ const router = createBrowserRouter(
   path = "vite-ghpages/" 
   element={<App />}
   errorElement={<ErrorPage />}
+  // loader={() => markdownContent}
   >
 
     <Route 
