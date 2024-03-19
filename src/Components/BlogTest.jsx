@@ -27,12 +27,13 @@ const BlogTest = () => {
 <h4>Lorem Ipsum</h4>
   <p className='flex flex-col'>
   Massa vitae tortor condimentum lacinia quis vel. In ornare quam viverra orci sagittis. Tristique senectus et netus et malesuada fames ac turpis. Elit at imperdiet dui accumsan sit amet. 
-    <div className='flex'>
+      </p>
+        <div className='flex'>
 
   <img src={test1} alt='' className=' w-[200px]' />
   <img src={test2} alt='' className='w-[200px]' />
     </div>
-  </p>
+
   <code>
 {`
   const example = () => {
@@ -43,12 +44,13 @@ const BlogTest = () => {
   <h4> Flowers </h4>
   <p className='flex flex-col'>
   Massa vitae tortor condimentum lacinia quis vel. In ornare quam viverra orci sagittis. Tristique senectus et netus et malesuada fames ac turpis. Elit at imperdiet dui accumsan sit amet. 
-    <div className='flex justify-center prose-img:rounded-full bg-blue-200'>
+      </p>
+      <div className='flex justify-center prose-img:rounded-full bg-blue-200'>
 
   <img src={test3} alt='' className='' />
 
     </div>
-  </p>
+
 
 
 </article>
