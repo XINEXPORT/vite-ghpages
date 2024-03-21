@@ -37,9 +37,9 @@ const sendEmail = (e) =>{
         <h1 className ={`${styles.heading1} flex justify-center `}>Contact</h1>
 
 
-        <h2 className =''>We would love to hear from you.      </h2>
-          <a className =  {`${styles.paragraph} hover:underline text-blue-700`} href = "mailto:contact@texascodingclub.com">contact@texascodingclub.com</a>
-        <p className =  {`${styles.paragraph}`}>If you would like to contribute to our blog, arrange a coffee chat, or meet us for our next study session, send us an message below. </p>
+        <h2 className ='text-tccred'>We would love to hear from you.      </h2>
+          <a className =  {`${styles.paragraph} text-tccred hover:underline`} href = "mailto:contact@texascodingclub.com">contact@texascodingclub.com</a>
+        <p className =  {`${styles.paragraph} text-tccred`}>If you would like to contribute to our blog, arrange a coffee chat, or meet us for our next study session, send us an message below. </p>
 
 
 

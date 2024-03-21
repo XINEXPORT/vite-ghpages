@@ -11,8 +11,8 @@ const About = () => {
       {AboutData.map((person) => (
         <div key={person.id} className='flex flex-col items-center p-4 max-w-[470px]'>
           <img src={person.img} alt={person.name} className='w-[160px] sm:w-[200px] rounded-full' />
-          <h1 className='font-semibold mb-2 ss:text-[30px] text-[30px]'>{person.name}</h1>
-          <p className={`${styles.paragraph} ,`}>{person.bio}</p>
+          <h1 className='font-semibold mb-2 text-tccred ss:text-[30px] text-[30px]'>{person.name}</h1>
+          <p className={`${styles.paragraph} text-tccred`}>{person.bio}</p>
         </div>
       ))}
     </section>
