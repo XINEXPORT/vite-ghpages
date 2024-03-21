@@ -6,20 +6,20 @@ const Hero = () => {
   return (
     <section id='Home' className={`flex flex-col md:flex-row `}>
 
-    <div id='bio' className={`w-full flex-1 flex flex-col text-center mb-4 md:mb-0 text-tccred z-[10]`}>
+    <div id='bio' className={`w-full flex-1 flex flex-col text-center md:mb-0 text-tccred z-[10]`}>
 
-          <div className='uppercase font-stint text-[24px] xs:text-[32px] lg:text-[38px] tracking-wide py-6'>
+          <div className='uppercase font-stint text-[24px] xs:text-[32px] lg:text-[38px] tracking-wide py-2'>
           a <br/> web development
           <br/> <span className='tracking-widest text-[32px] sm:text-[42px]'>blog </span>
           </div>
 
           <div>
-            <div className='font-lobster text-[28px] xs:text-[30px] tracking-widest pt-4 sm:text-[40px] translate -rotate-3'>Starring 
+            <div className='font-lobster text-[28px] xs:text-[30px] tracking-widest sm:text-[40px] translate -rotate-3'>Starring 
             </div>
-            <div className='font-wellfleet pt-2 flex justify-evenly'>
+            <div className='font-wellfleet flex justify-center md:justify-evenly'>
               <div className='flex flex-1 justify-evenly text-[18px] xs:text-[24px] sm:text-[28px] items-center tracking-tight'>
               Christine Hoang </div> 
-              <div className='text-[20px] sm:text-[28px] flex items-center'>&</div> 
+              <div className='text-[20px] xs:text-[28px] sm:text-[32px] flex items-center'>&</div> 
               <div className='flex flex-1 tracking-widest text-[20px] xs:text-[26px] sm:text-[32px] items-center justify-evenly'>Joe Aguado</div>
               </div>
           </div>
