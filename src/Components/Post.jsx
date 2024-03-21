@@ -6,6 +6,7 @@ export default function Post() {
   const {title, writer, date, content, content1, content2, content3, content4, content10} = useLoaderData();
 
   return (
+
     <div className={`prose ${styles.padding} pt-10`}>
 
       {/* <h1 className = {`${styles.heading1} flex-1 font-helvetica font-semibold ss:text-[30px] text-[30px] text-black ss:leading-[100px] leading-[75px]`}>{title}</h1>
@@ -20,13 +21,6 @@ export default function Post() {
       <h4 className="">Written by: {writer}</h4>  
       <h5>{date}</h5>
       </div>
-
-      <p>{content}</p>
-      <p>{content}</p>
-      <p>{content}</p>
-      <p>{content}</p>
-      <p>{content}</p>
-      <p>{content}</p>
 
 
 

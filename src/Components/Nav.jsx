@@ -1,15 +1,11 @@
-// import logo from '../../images/dm_white_logo.png';
-
 import {Link , useLocation} from 'react-router-dom'
 import { useState } from 'react';
-import logo from '../images/TCCLogo.svg'
-
+import logo from '../images/TCClogo.svg'
 import styles from '../styles';
 
 export default function Nav() {
 
 const [toggle, setToggle] = useState(false);
-
 
 
   return (
