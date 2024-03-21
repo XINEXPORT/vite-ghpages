@@ -18,6 +18,8 @@ import About from './Components/About.jsx';
 import Contact from './Components/Contact.jsx';
 import postData from './data/post_data.json';
 import userData from './data/user_data.json';
+import { AboutData } from './constants'
+
 import ErrorPage from './Components/ErrorPage.jsx';
 import Hero from './Components/Hero.jsx';
 import BlogTest from './Components/BlogTest.jsx';
@@ -48,7 +50,7 @@ const router = createBrowserRouter(
 
 <Route
     path = "in/about"
-    element={<About/>}
+    element={<About aboutData={AboutData} />}
     loader={()=> userData}/>
 
 <Route

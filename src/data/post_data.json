@@ -2,11 +2,14 @@
     {
       "id": 1,
       "title": "Learning ES|QL",
+      "writer" : "Christine Hoang",
+      "date" : "2/21/24",
       "content": "I decided to attend the ES|QL meetup at Improving Dallas hosted by Elasticsearch. I’ve always been curious about Elasticsearch and wanted to know more about them. Afterall, the Dallas AI group spoke highly of the company and I recently met a DevMountain alumni that now works as the Principal Tech lead for them.",
       "content1": "From the meetup, I learned that ES|QL is a brand-new query language made by Elasticsearch. Then I started thinking, what is Elasticsearch, really? And it seems like they provide Back-end as a Service, much like AWS, Azure, and Google. It’s like another cloud tool that enables scalable web architecture, but with a focus on their search queries and data management tools.",
       "content2": "According to the presenter Sajit, ES|QL is a piped query language. This wrung a bell for as I am currently studying R and it also uses piping in its search query syntax. It uses some very familiar search statements, such as FROM, WHERE, and SORT along with some new terminology like KEEP, STATS BY, and EVAL.",
       "content3": "Overall, the UI and the syntax seems simple enough to understand looking if a user is doing a basic search query. However, they’re might be a learning curve when someone wants to use the ENRICH statement, which is like a JOIN statement in SQL. Basically, ENRICH can add data from a specific search index to an output query, which sounds a lot like a join. The thing is that you won’t be able to use ENRICH unless policies are established before running the query. That can be kinda time consuming and maybe a little disorganized, especially if someone is adding data from multiple data sources. That means I would need to make multiple policies and declare which policy to use for the enrichment.",
       "content4": "I dunno, maybe it’s not hard at all and it’s just a new thing that I’m not familiar with. We shall see! -Christine Hoang, 2/21/2024."
+
     },
     {
       "id": 2,
@@ -32,12 +35,18 @@
       "content3": "We all came to a consensus at the end of the chat where women have a hard time climbing up to executive leadership. Possibly it’s because advocates within the industry are hard to come by. A woman in the group even mentioned that other women who have climbed to the top don’t advocate for others. I have personally encountered this as well.",
       "content4": "Overall, I am grateful Women Who Code hosted this event. It’s consoling that other women have experienced barriers navigating through their careers and that we are not isolated in this journey. -Christine Hoang, March 11, 2024"
     },
-    {
+    { 
       "id": 5,
+      "title": "Hello World",
+      "content": "<h1>Hello World</h1> <h2>My name is Joe and this is my first blog post under TCC </h2> <p>Currently I'm testing out some different data structures in order to organize and style our blog posts</p>"
+  },
+    {
+      "id": 6,
       "title": "Web Audio Conference 24’",
       "content": "This year, I was selected to perform at the Web Audio Conference in West Lafayatte, IN at Purdue University. I had a wonderful time and met a lot of like-minded souls that were just as nerdy as I am about web audio programming. I walked away with amazing memories and felt inspired at the capabilities of how the web can connect us all, not only in a “webby” way but also in a very humanistic way.",
       "content1": "The best example of this humanistic connection to web and audio was a workshop I attended where we all played Terry Riley’s “In C” via a web application called Lute built by Loyola University. You would think as a programmer, we would all want the app to play in sync and build these complicated systems to avoid latency, but the host’s were insistent that we used our listening skills along with the Lute app. This meant pitch matching by ear. And honestly, I loved that! It’s a way for all of us to play together, but not neglect the skills that we already possess. You can check out the app here…https://lute.luc.edu/InC/.",
       "content2": "I also made some friends at the conference in which they were advocating me to make NFTs with my skills in p5js. And when they told me this, I said, “HELL YEAH! WHY DIDN”T I THINK OF THAT!?” This entire time, I have been approaching my coding and art as two separate lives when it really could be one. So, I feel inspired to code, not from a functional standpoint, but from a creative point of view….Art for art’s sake. Just the idea that I can present my code as an NFT gallery at my studio makes me eager to keep programming.",
       "content3": "Sometimes it takes meeting new people to approach problems from a different perspective. I’m happy I went to WAC 24’ as I got an opportunity to meet a community that believe technology can make us feel more human by having fun. -Christine Hoang, March 20, 2024"
+
     }
   ]
