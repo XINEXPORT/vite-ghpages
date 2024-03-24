@@ -18,7 +18,11 @@ import About from './Components/About.jsx';
 import Contact from './Components/Contact.jsx';
 import postData from './data/post_data.json';
 import userData from './data/user_data.json';
+
 import { AboutData } from './constants'
+import Blog from './Components/Blog.jsx'
+import Entries from './Components/Entries.jsx';
+import { BlogData } from './constants'
 
 import ErrorPage from './Components/ErrorPage.jsx';
 import Hero from './Components/Hero.jsx';
@@ -39,14 +43,11 @@ const router = createBrowserRouter(
     index element={
     // <Home/>
     <Hero />
-    // <BlogTest />
+
   }
     />
 
-    <Route
-    path = "in/topics"
-    element={<TopicList/>}
-    loader={()=> postData}/>
+
 
 <Route
     path = "in/about"
@@ -57,6 +58,11 @@ const router = createBrowserRouter(
     path = "in/contact"
     element={<Contact/>}
     loader={()=> userData}/>
+
+    <Route
+    path = "in/topics"
+    element={<TopicList/>}
+    loader={()=> postData}/>
 
     <Route
     path = "in/topics/in/post/:id"
@@ -70,6 +76,31 @@ const router = createBrowserRouter(
       }
     }}
     />
+
+<Route 
+  path='in/entries'
+  element={<Entries 
+  blogData={BlogData} 
+    />}
+  loader={() => Promise.resolve(BlogData)}
+/>
+
+<Route 
+path='in/entries/in/blog/:id'
+element={<Blog />}
+loader={({params})=>{
+  const post = BlogData.find((item)=>item.id === +params.id)
+  if (post){
+    return post;
+  }else{
+    return {title: 'Post Not Found'};
+  }
+}}
+/>
+
+
+
+
     </Route>
   )
 );
