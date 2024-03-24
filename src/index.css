@@ -13,11 +13,12 @@
 @tailwind utilities;
 
 :root {
-  --beige-gradient: linear-gradient(
+
+   --black-gradient: linear-gradient(
     144.39deg,
-    #fed9d -278.56%,
-    #fccdbb -78.47%,
-    #fbb694 91.61%
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
@@ -134,16 +135,30 @@
 
 
 .pink__gradient {
-  background: linear-gradient(180deg, #fc0303 0%, #ff0040 100%);
-  filter: blur(170px);
+  background: linear-gradient(180deg, #fc0303 0%, #ff0000 100%);
+  filter: blur(250px);
 }
 
 .orange__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #f79800 100%);
-  filter: blur(100px);
+  background: linear-gradient(180deg, rgb(254, 110, 0) 0%, #f79800 100%);
+  filter: blur(250px);
 }
+.black__gradient {
+  background: linear-gradient(180deg, rgba(0, 7, 19, 0.399) 0%, #00000066 100%);
+  filter: blur(150px);
+}
+
 
 .yellow__gradient {
   background: rgb(249, 228, 0);
-  filter: blur(150px);
+  filter: blur(450px);
+}
+
+
+
+
+.feature-card:hover {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+  color:#fffaef;
 }

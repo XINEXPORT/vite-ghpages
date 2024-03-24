@@ -5,6 +5,7 @@ import styles from '../styles';
 export default function TopicList() {
   const posts = useLoaderData();
 
+  console.log(posts)
   const displayTopics = posts.map((post) => {
     return <li key={post.id}>
       <Link to = {`in/post/${post.id}
