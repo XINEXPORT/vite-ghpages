@@ -68,5 +68,27 @@ import {
   date: "March 3, 2024",
   content: "I've been building my HackerRank profile account in preparation for a potential interview I might have with JPMC. I applied to be a Quality Engineer, which I am qualified for the job...I just haven't QA in over a year. And I mean formally QA'd. Generally, I feel like everyone is a QA no matter what job they perform in the tech sphere. The QAs though have a different set of tools and processes that most don't follow. I remember over a year ago, I learned all the QA tools, but since I haven’t used them in over a year, I forgot. It's so impossible to remember all these languages and tools, but it doesn't mean I dont know about them and how they work. Anyway, I am getting off topic. So far, I have attained profile badges on my HackerRank, such as SQL and Problem Solving. I am working on getting my algos and data structures badge, but these challenges are very difficult. I’ve been trying to target the easy ones first. I’m pretty sure im going to have to solve them multiple times to get them engrained in my brain. Maybe I can hit up some of my friends to get an idea of what coding challenges they will ask."
 },
+{
+  id:4,
+  title: "Web Audio Conference 24’", 
+  firstName: "Christine",
+  lastName: "Hoang",
+  photo: cactus,
+  date: "March 20, 2024",
+  content: "This year, I was selected to perform at the Web Audio Conference in West Lafayatte, IN at Purdue University. I had a wonderful time and met a lot of like-minded souls that were just as nerdy as I am about web audio programming. I walked away with amazing memories and felt inspired at the capabilities of how the web can connect us all, not only in a “webby” way but also in a very humanistic way. The best example of this humanistic connection to web and audio was a workshop I attended where we all played Terry Riley’s “In C” via a web application called Lute built by Loyola University. You would think as a programmer, we would all want the app to play in sync and build these complicated systems to avoid latency, but the host’s were insistent that we used our listening skills along with the Lute app. This meant pitch matching by ear. And honestly, I loved that! It’s a way for all of us to play together, but not neglect the skills that we already possess. You can check out the app here…https://lute.luc.edu/InC/. I also made some friends at the conference in which they were advocating me to make NFTs with my skills in p5js. And when they told me this, I said, “HELL YEAH! WHY DIDN”T I THINK OF THAT!?” This entire time, I have been approaching my coding and art as two separate lives when it really could be one. So, I feel inspired to code, not from a functional standpoint, but from a creative point of view….Art for art’s sake. Just the idea that I can present my code as an NFT gallery at my studio makes me eager to keep programming. Sometimes it takes meeting new people to approach problems from a different perspective. I’m happy I went to WAC 24’ as I got an opportunity to meet a community that believe technology can make us feel more human by having fun."
+}
 
+ ]
+
+ export const socialMediaData = [
+{
+  id: 1,
+  name: "LinkedIn",
+  url: "https://www.linkedin.com/company/texas-coding-club"
+},
+{
+  id:2,
+  name: "Instagram",
+  url: "https://www.instagram.com/texascodingclub/"
+}
  ]

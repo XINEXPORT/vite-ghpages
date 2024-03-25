@@ -1,38 +1,39 @@
 import styles from '../styles'
 import { useRef, useState} from "react";
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 
-const Contact = () => {
+const Contact = ({socialMediaData}) => {
 const form = useRef();
 const [error, setError] = useState(false);
 const [success, setSuccess] = useState(false);
 
-const sendEmail = (e) =>{
-  e.preventDefault();
+// const sendEmail = (e) =>{
+//   e.preventDefault();
 
-  emailjs
-      .sendForm(
-        'service_gilnphb', 
-        'template_e1kspna', 
-        form.current, {
-        publicKey: 'GVwpxX-t-a0VZM-8Q',
-      })
-      .then(
-        (result) => {
-          setSuccess(true);
-          setError(false)
-          form.current.reset();
-        },
-        (error) => {
-          setError(true);
-          setSuccess(false)
-        },
-      );
-  };
+//   emailjs
+//       .sendForm(
+//         'service_gilnphb', 
+//         'template_e1kspna', 
+//         form.current, {
+//         publicKey: 'GVwpxX-t-a0VZM-8Q',
+//       })
+//       .then(
+//         (result) => {
+//           setSuccess(true);
+//           setError(false)
+//           form.current.reset();
+//         },
+//         (error) => {
+//           setError(true);
+//           setSuccess(false)
+//         },
+//       );
+//   };
 
 
   return (
 
+    
     <section className = {`${styles.paragraph} text-center flex flex-col justify-center`}>
         <h1 className ={`${styles.heading1} flex justify-center `}>Contact</h1>
 
@@ -43,24 +44,18 @@ const sendEmail = (e) =>{
 
 
 
-           <form ref={form} onSubmit={sendEmail} className ="flex flex-col justify-center text-center items-center ">
-
+           {/* <form ref={form} onSubmit={sendEmail} className ="flex flex-col justify-center text-center items-center ">
             <input type="text" required placeholder="Name" name="name" className = " w-3/4 md:w-1/2 rounded-lg px-4 py-4 mt-8 border-2"/>
-
 
             <input type="email" required placeholder="Email" name="email" className = " w-3/4 md:w-1/2 rounded-lg px-4 py-4 mt-8 border-2" />
 
-
-
             <textarea rows={8} cols={24} placeholder="Message" name="message" className = "w-3/4 md:w-1/2 rounded-lg px-4 py-4 mt-8 border-2"/>
-
 
             <button className = "bg-orange-600 hover:bg-green-500 text-white font-bold py-2 px-4 rounded my-4">Submit</button>
             {error && "Error"}
             {success && "Message Sent!"}
 
-
-          </form>
+          </form> */}
 
     </section>
   )

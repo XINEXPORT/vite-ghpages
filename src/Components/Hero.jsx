@@ -13,7 +13,7 @@ import redClouds from '../images/redCloud.svg'
 
 const Hero = () => {
   return (
-    <section id='Home' className={`flex flex-col w-full h-screen`}>
+    <section id='Home' className={`flex flex-col w-full h-full`}>
 
     <div id='bio' className={`w-full flex flex-col text-center z-[10] hover:font-bold hover:text-tccred`}>
 
