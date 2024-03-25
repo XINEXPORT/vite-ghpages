@@ -9,8 +9,8 @@
       "content2": "According to the presenter Sajit, ES|QL is a piped query language. This wrung a bell for as I am currently studying R and it also uses piping in its search query syntax. It uses some very familiar search statements, such as FROM, WHERE, and SORT along with some new terminology like KEEP, STATS BY, and EVAL.",
       "content3": "Overall, the UI and the syntax seems simple enough to understand looking if a user is doing a basic search query. However, they’re might be a learning curve when someone wants to use the ENRICH statement, which is like a JOIN statement in SQL. Basically, ENRICH can add data from a specific search index to an output query, which sounds a lot like a join. The thing is that you won’t be able to use ENRICH unless policies are established before running the query. That can be kinda time consuming and maybe a little disorganized, especially if someone is adding data from multiple data sources. That means I would need to make multiple policies and declare which policy to use for the enrichment.",
       "content4": "I dunno, maybe it’s not hard at all and it’s just a new thing that I’m not familiar with. We shall see! -Christine Hoang, 2/21/2024."
-
     },
+    
     {
       "id": 2,
       "title": "Video Editing is Underated",

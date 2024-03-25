@@ -1,6 +1,6 @@
 import {Link , useLocation} from 'react-router-dom'
 import { useState } from 'react';
-import logo from '../images/TCCLogo.svg'
+// import logo from '../images/TCCLogo.svg'
 import styles from '../styles';
 import logoBlack from '../images/nightlogos/blackskull.png'
 import altLogo from '../images/altLogo.svg'
