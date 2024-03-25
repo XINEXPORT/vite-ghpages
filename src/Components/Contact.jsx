@@ -1,38 +1,39 @@
 import styles from '../styles'
 import { useRef, useState} from "react";
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 
-const Contact = () => {
+const Contact = ({socialMediaData}) => {
 const form = useRef();
 const [error, setError] = useState(false);
 const [success, setSuccess] = useState(false);
 
-const sendEmail = (e) =>{
-  e.preventDefault();
+// const sendEmail = (e) =>{
+//   e.preventDefault();
 
-  emailjs
-      .sendForm(
-        'service_gilnphb', 
-        'template_e1kspna', 
-        form.current, {
-        publicKey: 'GVwpxX-t-a0VZM-8Q',
-      })
-      .then(
-        (result) => {
-          setSuccess(true);
-          setError(false)
-          form.current.reset();
-        },
-        (error) => {
-          setError(true);
-          setSuccess(false)
-        },
-      );
-  };
+//   emailjs
+//       .sendForm(
+//         'service_gilnphb', 
+//         'template_e1kspna', 
+//         form.current, {
+//         publicKey: 'GVwpxX-t-a0VZM-8Q',
+//       })
+//       .then(
+//         (result) => {
+//           setSuccess(true);
+//           setError(false)
+//           form.current.reset();
+//         },
+//         (error) => {
+//           setError(true);
+//           setSuccess(false)
+//         },
+//       );
+//   };
 
 
   return (
 
+    
     <section className = {`${styles.paragraph} text-center flex flex-col justify-center`}>
         <h1 className ={`${styles.heading1} flex justify-center `}>Contact</h1>
 
