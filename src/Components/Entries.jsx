@@ -8,7 +8,7 @@ const Entries = ({blogData}) => {
     // console.log(posts)
 
     const displayBlogs = blogData.map((post) => {
-        return <div key={post.id} className='max-w-[180px] p-4 items-center text-center'>
+        return <div key={post.id} className='max-w-[220px] m-4 items-center text-center'>
         
         <Link 
         to = {`in/blog/${post.id}`}

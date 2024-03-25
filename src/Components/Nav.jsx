@@ -3,6 +3,8 @@ import { useState } from 'react';
 import styles from '../styles';
 import logoBlack from '../images/nightlogos/blackskull.png'
 import altLogo from '../images/altLogo.svg'
+
+
 export default function Nav() {
 
 const [toggle, setToggle] = useState(false);
@@ -21,27 +23,23 @@ const [toggle, setToggle] = useState(false);
           <ul className='h-full list-none flex flex-col items-end sm:flex-row w-full justify-end font-wellfleet text-[22px] sm:text-[28px] xs:tracking-wider '>
 
 
-            <li className='mb-4 hover:text-tccred'>
+            <li className='mb-4 hover:text-tccred duration-300 ease-in-out'>
             <Link to="/vite-ghpages">Home</Link>
             </li>
 
 
-            <li className='mb-4 xs:pl-10 lg:pl-20 hover:text-tccred'>
+            <li className='mb-4 xs:pl-10 lg:pl-20 transform hover:scale-110'>
             <Link to="in/entries">Entries</Link>
             </li>
 
-{/* 
-          <li className={`mb-4 xs:pl-10 lg:pl-20`}>
-            <Link to="in/topics">Topics</Link>
-          </li> */}
-          <li className={`mb-4 xs:pl-10 lg:pl-20 hover:text-tccred`}>
+          <li className={`mb-4 xs:pl-10 lg:pl-20 transform hover:rotate-6`}>
             <Link to="in/about">About</Link>
           </li>
-          <li className={`mb-4 xs:pl-10 lg:pl-20 hover:text-tccred`}>
+          <li className={`mb-4 xs:pl-10 lg:pl-20 transform duration-300 ease-in-out hover:text-tccred hover:scale-110`}>
             <Link to="in/contact">Contact</Link>
           </li>
           </ul>
         </div>
     </nav >
-  );
+  )
 }

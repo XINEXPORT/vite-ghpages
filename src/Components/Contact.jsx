@@ -35,12 +35,12 @@ const [success, setSuccess] = useState(false);
 
     
     <section className = {`${styles.paragraph} text-center flex flex-col justify-center`}>
-        <h1 className ={`${styles.heading1} flex justify-center `}>Contact</h1>
+        <h1 className ={`font-rye text-[40px] flex justify-center `}>Contact</h1>
 
 
-        <h2 className ='text-tccred'>We would love to hear from you.      </h2>
-          <a className =  {`${styles.paragraph} text-tccred hover:underline`} href = "mailto:contact@texascodingclub.com">contact@texascodingclub.com</a>
-        <p className =  {`${styles.paragraph} text-tccred`}>If you would like to contribute to our blog, arrange a coffee chat, or meet us for our next study session, send us an message below. </p>
+        <h2 className =''>Got something to say partner?</h2>
+          <a className =  {`${styles.paragraph} hover:underline`} href = "mailto:contact@texascodingclub.com">contact@texascodingclub.com</a>
+        <p className =  {`${styles.paragraph}`}>We are local to the Dallas, Fort Worth area. If you would like to contribute to the blog, get a coffee, or join our next study session - send a message! </p>
 
 
 
