@@ -67,3 +67,16 @@ import{
 }
 
  ]
+
+ export const socialMediaData = [
+{
+  id: 1,
+  name: "LinkedIn",
+  url: "https://www.linkedin.com/company/texas-coding-club"
+},
+{
+  id:2,
+  name: "Instagram",
+  url: "https://www.instagram.com/texascodingclub/"
+}
+ ]

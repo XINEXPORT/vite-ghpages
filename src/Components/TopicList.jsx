@@ -10,7 +10,7 @@ export default function TopicList() {
     return <li key={post.id}>
       <Link to = {`in/post/${post.id}
       `}
-      className='no-underline'
+      className='no-underline '
       >
 <div className='flex flex-col'>
         <p className='font-bold'>{post.title} </p>        
@@ -28,14 +28,11 @@ export default function TopicList() {
 
 <div className={`${styles.padding} pt-10 prose`} >
 <h1 className='text-tccred'>Blog Entries</h1>
+
 <ol>
   {displayTopics}
 </ol>
-
 </div>
-
-
-    // </div>
 
   );
 }
