@@ -10,17 +10,15 @@ return (
 <section className={`prose ${styles.padding} pt-10 `}>
 
 
+<div className=''>
+    <div className="font-wellfleet">
+      <h1 className="">{title}</h1>
+      <h4 className="">Written by: <span className='normal-case'>{firstName} {lastName}</span></h4>  
+      <h5 className=''>Date: {date}</h5>
+    </div>
+<p className =  {`text-[18px] font-stint tracking-wide`}>{content}</p>
 
-<h1 className="text-tccred">{title}</h1>
-<div className="">
-<h4 className="">Written by: {firstName} {lastName}</h4>  
-<h5 className=''>Date: {date}</h5>
-{/* <div className='flex justify-center'>
-<img src={photo} alt='photo' className='max-w-[250px]' />
-</div> */}
-<p className =  {``}>{content}</p>
-
-    <p className='font-lobster text-tccred text-[24px] flex justify-end pr-20'>-{firstName}</p>
+    <p className='font-lobster hover:text-tccred text-[24px] flex justify-end pr-20'>-{firstName}</p>
 
 <div className='flex flex-col items-center'>
 <img src={photo} alt='photo' className='max-w-[240px] flex justify-center' />
