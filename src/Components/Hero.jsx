@@ -15,15 +15,15 @@ const Hero = () => {
   return (
     <section id='Home' className={`flex flex-col w-full h-full`}>
 
-    <div id='bio' className={`w-full flex flex-col text-center z-[10] `}>
+    <div id='bio' className={`w-full flex flex-col text-center z-[10] hover:font-bold hover:text-tccred`}>
 
-          <div className='uppercase font-stint text-[24px] xs:text-[32px] md:text-[50px] tracking-wide feature-card flex flex-col justify-center items-center m-auto rounded-[20px] p-4'>
+          <div className='uppercase font-stint text-[24px] xs:text-[32px] md:text-[50px] tracking-wide flex flex-col justify-center items-center m-auto rounded-[20px] p-4 '>
             <div className=''>a</div>  
             <div>web development</div> 
             <div className='tracking-widest text-[32px] md:text-[50px]'>blog </div>
           </div>
 
-          <div className='feature-card rounded-[20px] flex flex-col m-auto p-4 w-3/4'>
+          <div className='rounded-[20px] flex flex-col m-auto p-4 w-3/4'>
             <div className='font-lobster text-[28px] xs:text-[30px] tracking-widest md:text-[48px] translate -rotate-3 '>Starring 
             </div>
             <div className='font-wellfleet flex justify-center '>

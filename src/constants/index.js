@@ -2,13 +2,25 @@ import { joeaguado,
         christinehoang,
  } from "../images/profileimg"
 
-import{
-  hare,
-  armadillo,
-  cowboyhat,
-  cactus
-} from '../images/TCC Test Assets'
 
+import {
+  turtle,
+  hawk,
+  cactus,
+  beatle,
+  armadillo,
+  scorpion,
+  horseshoe,
+  mouse,
+  hat,
+  bat,
+  boots,
+  rabbit,
+  skull,
+  snake,
+  tarantula,
+  flower,
+} from '../images/blogassets'
 
 
  export const AboutData = [
@@ -32,7 +44,7 @@ import{
  {
   id: 1,
   title: "Learning ES|QL",
-  photo : hare,
+  photo : turtle,
   firstName : "Christine",
   lastName: "Hoang",
   date : "2/21/24",
@@ -44,7 +56,7 @@ import{
   date: '3/4/24',
   firstName: "Christine",
   lastName: "Hoang",
-  photo: cowboyhat,
+  photo: hat,
   content: "A hidden skill I feel like most Millennials and Gen Z’rs are familiar yet no one talks about is video editing. Back in the early 2000s video editing was a rare commodity. You needed fast computing power, proprietary video editing tools, and expensive cameras to shoot the highest resolution. Fast forward 20 years into the future, there are now apps and phones that can do the same amount of work with less money and time. I spent all day working on my art and music. Sometimes, my version of a break isn’t really a break at all, but being creative. Like mashing up various sources of artful medias I’ve made and sharing it to the world is fun to me. I rarely get to do it! I also needed to stop my Soundcloud subscription and YouTube is a free app. I did the Math and decided to transfer all my songs to the tube. That meant that all my songs needed a photo, or a video tied to them. The only thing I could think of was screenshotting my coded art and adding it to my audio in Adobe Premier. Some of the photos and videos are low res. It’ll do for now. We’re not aiming for perfect here, we’re striving for the minimum! One day ill look into high res video recording to replace these videos. For now, my songs are up and that’s all that matters."
 },
 {
