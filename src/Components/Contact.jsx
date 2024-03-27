@@ -50,30 +50,33 @@ const [success, setSuccess] = useState(false);
     <div className={`flex flex-col ${styles.flexCenter} ${styles.paddingX} `}>
 
 
-        <div className={`flex justify-start relative`}> 
+        <div className={`flex flex-col sm:flex-row justify-start items-center relative`}> 
           <img src={cowgirl} alt='' className='max-w-[300px]'/>
 
-          <p className ='max-w-[480px] font-stint text-[20px] p-10' > Got something to say? partner? Drop us a line! Add us on Social Media to stay connected. 
-          
-          <div className='flex items-center justify-center p-2'>
-      <a href='https://www.instagram.com/texascodingclub/' className=''><FaInstagram size={40} className='text-tccred'/></a> <a href='https://www.linkedin.com/company/texas-coding-club/' className='ml-8'><FaLinkedin size={40} className='text-tccred'/></a>
-
+          <div className='p-10'>
+            <div>
+              <p className ='max-w-[480px] font-stint text-[20px] ' > Got something to say? partner? Drop us a line! Add us on Social Media to stay connected. 
+              </p>
+            </div>
+            <div className='flex items-center justify-center p-2'>
+              <a href='https://www.instagram.com/texascodingclub/' className=''><FaInstagram size={40} className='text-tccred'/> </a> 
+              <a href='https://www.linkedin.com/company/texas-coding-club/' className='ml-8'><FaLinkedin size={40} className='text-tccred'/></a>
+            </div>
            {/* <div className = "absolute z-[0] w-[40%] h-[40%] right-0 bottom-10 black__gradient" />  */}
-</div>
- </p>
+          </div>
         </div>
                     
-          <div className={`flex justify-end items-center relative`}>
-          <p className='max-w-[480px] font-stint text-[20px] p-10'>Interested in joining the Texas Coding Club? We're a small group and we are open to new developers, new ideas and any feedback on how we can be better for our community. <a className ='hover:underline text-[22px] tracking-wider text-tccred' href = "mailto:contact@texascodingclub.com">contact@texascodingclub.com</a></p>
-          <img src={cowboy} alt='' className='max-w-[300px]' />
+          <div className={`flex flex-col sm:flex-row justify-end items-center relative`}>
+          <p className='max-w-[480px] font-stint text-[20px] p-10'>Interested in joining the Texas Coding Club? We're a small group open to new developers, new ideas or feedback on how we can be better for our community. <a className ='hover:underline text-[22px] tracking-wider text-tccred' href = "mailto:contact@texascodingclub.com">contact@texascodingclub.com</a></p>
+          <img src={cowboy} alt='' className=' max-w-[300px]' />
           {/* <div className = "absolute z-[0] w-[50%] h-[50%] left-0 bottom-0 black__gradient" />  */}
           </div>
     </div>
 
         <div className={`flex flex-col items-center py-20 relative`}>
-          <p className =  {` font-stint text-[20px] text-center`}>We are local to the Dallas, Fort Worth area. If you would like to contribute to the blog, get a coffee, or join our next study session - send a message, we'll be in touch! </p><GiTexas size={30}
-          className='m-2' />
-          <img src={contact} alt='' className='w-[400px] m-10' />
+          <p className =  {` font-stint text-[20px] text-center max-w-[720px]`}>We are local to the Dallas, Fort Worth area. If you would like to contribute to the blog, get a coffee, or join our next study session - send a message, we'll be in touch! </p><GiTexas size={30}
+          className='m-2 ' />
+          <img src={contact} alt='' className='w-[500px] m-10' />
                     <div className = "absolute z-[0] w-[20%] h-[20%] right-0 bottom-0 black__gradient" /> 
                     <div className = "absolute z-[0] w-[10%] h-[10%] top-0 left-0 black__gradient" /> 
         </div>
