@@ -1,6 +1,5 @@
 import styles from '../styles';
 
-
 const About = ({aboutData}) => {
 
 console.log(aboutData)

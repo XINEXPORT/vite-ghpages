@@ -27,12 +27,12 @@ const Entries = ({blogData}) => {
 
       });
   return (
-<div className={`${styles.padding} flex flex-col items-center h-screen`} >
-<h1 className={`${styles.paddingY}  text-5xl font-rye`}>Entries</h1>
-<div className={`relative flex flex-wrap`}>
-  {displayBlogs}
 
-        <div className = "absolute z-[0] w-[50%] h-[50%] right-0 -bottom-10 black__gradient" /> 
+<div className={`${styles.padding} flex flex-col items-center h-screen`} >
+  <h1 className={`${styles.paddingY}  text-5xl font-rye`}>Entries</h1>
+    <div className={`relative flex flex-wrap`}>
+      {displayBlogs}
+    <div className = "absolute z-[0] w-[50%] h-[50%] right-0 -bottom-10 black__gradient" /> 
 </div>
 
 </div>
