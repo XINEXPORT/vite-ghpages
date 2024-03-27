@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <section id='Home' className={`flex flex-col w-full h-full`}>
 
-    <div id='bio' className={`w-full flex flex-col text-center z-[10] hover:font-bold hover:text-tccred`}>
+    <div id='bio' className={`w-full flex flex-col text-center z-[10] transform hover:scale-105 ease-in-out duration-300`}>
 
           <div className='uppercase font-stint text-[24px] xs:text-[32px] md:text-[50px] tracking-wide flex flex-col justify-center items-center m-auto rounded-[20px] p-4 '>
             <div className=''>a</div>  

@@ -32,7 +32,7 @@ const Entries = ({blogData}) => {
 <div className={`relative flex flex-wrap`}>
   {displayBlogs}
 
-        <div className = "absolute z-[0] w-[50%] h-[50%] right-0 -bottom-10 black__gradient" /> 
+        <div className = "absolute z-[0] w-[30%] h-[30%] right-0 bottom-10 black__gradient" /> 
 </div>
 
 </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLoaderData } from 'react-router-dom'
+import { Link, useLoaderData } from 'react-router-dom'
 import styles from '../styles'
 
 const Blog = () => {
@@ -18,7 +18,10 @@ return (
     </div>
 <p className =  {`text-[18px] font-stint tracking-wide`}>{content}</p>
 
-    <p className='font-lobster hover:text-tccred text-[24px] flex justify-end pr-20'>-{firstName}</p>
+
+
+     <Link to='/vite-ghpages/in/about' className='no-underline'><p className='font-lobster hover:text-tccred text-[24px] flex justify-end pr-20 no-underline'>-{firstName}</p>
+   </Link>
 
 <div className='flex flex-col items-center'>
 <img src={photo} alt='photo' className='max-w-[240px] flex justify-center' />
