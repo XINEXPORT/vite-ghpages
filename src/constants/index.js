@@ -45,12 +45,13 @@ import {
         id: 1,
         name: "Joe Aguado",
         img: joeaguado,
-        bio: "Combining his experience in the financial industry with his management roles in business administration, Joe Aguado brings an exciting business-focused approach to the Technology sector. Proficient in both front and back-end development, Joe combines his skillsets to bridge the gap between business strategy and technological implementation.",
+        bio: "Combining his experience in the financial industry with his management roles in business administration, Joe Aguado brings an exciting business-focused approach to the Technology sector. Proficient in front and back-end development, Joe combines his skillsets to bridge the gap between business strategy and technology implementation.",
 
-        links: [
+        links: [          
+          { url: 'https://www.instagram.com/quickquickjoejoe/', icon: FaInstagram },
           {url:'https://www.linkedin.com/in/joeaguado/', icon: FaLinkedin },
           {url:'https://github.com/joeoverflowcode/', icon: FaGithub },
-          { url: 'https://www.instagram.com/quickquickjoejoe/', icon: FaInstagram },
+
     
         ]
     },
