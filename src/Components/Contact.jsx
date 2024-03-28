@@ -9,6 +9,8 @@ import { GiTexas } from "react-icons/gi";
 import { FaLinkedin } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa"
+import { IoIosMail } from "react-icons/io";
+import { RiInstagramFill } from "react-icons/ri";
 
 // import emailjs from '@emailjs/browser';
 
@@ -44,39 +46,51 @@ const [success, setSuccess] = useState(false);
   return (
 
     
-    <section className = {`${styles.padding} flex flex-col `}>
-        <h1 className ={`${styles.flexCenter} font-rye text-[40px]`}>Contact</h1>
+    <section className = {`${styles.padding} ${styles.flexCenter} flex flex-col`}>
+      <h1 className ={`font-rye text-[40px]`}>Contact</h1>
 
-    <div className={`flex flex-col ${styles.flexCenter} ${styles.paddingX} `}>
+      <div id='contactBody' className={`${styles.paddingX} `}>
 
 
-        <div className={`flex flex-col sm:flex-row justify-start items-center relative`}> 
-          <img src={cowgirl} alt='' className='max-w-[300px]'/>
+        <div id='section1' className={`flex flex-col md:flex-row justify-start items-center relative p-4`}> 
+          
+          <div id='contactimage' className=''>
+            <img src={cowgirl} alt='' className='max-w-[300px] w-full p-2'/>
+          </div>
 
-          <div className='p-10'>
-            <div>
-              <p className ='max-w-[480px] font-stint text-[20px] ' > Got something to say? partner? Drop us a line! Add us on Social Media to stay connected. 
-              </p>
-            </div>
-            <div className='flex items-center justify-center p-2'>
-              <a href='https://www.instagram.com/texascodingclub/' className=''><FaInstagram size={40} className='text-tccred'/> </a> 
-              <a href='https://www.linkedin.com/company/texas-coding-club/' className='ml-8'><FaLinkedin size={40} className='text-tccred'/></a>
-            </div>
-           {/* <div className = "absolute z-[0] w-[40%] h-[40%] right-0 bottom-10 black__gradient" />  */}
+          <div id='contacttext' className=''>
+
+ 
+                <p className ='max-w-[480px] font-stint text-[20px] text-center flex justify-center items-center w-full h-full' > Got something to say, partner? Drop us a line! Feel free to DM or add us to stay connected. 
+                </p>
+
+              <div className='flex items-center justify-center p-4'>
+                <a href='https://www.instagram.com/texascodingclub/' className=''><RiInstagramFill size={40} className='text-tccred'/> </a> 
+                <a href='https://www.linkedin.com/company/texas-coding-club/' className='ml-8'><FaLinkedin size={40} className='text-tccred'/></a>
+                <a href='https://www.linkedin.com/company/texas-coding-club/' className='ml-8'><IoIosMail size={40} className='text-tccred'/></a>
+              </div>
+
           </div>
         </div>
-                    
-          <div className={`flex flex-col sm:flex-row justify-end items-center relative`}>
-          <p className='max-w-[480px] font-stint text-[20px] p-10'>Interested in joining the Texas Coding Club? We're a small group open to new developers, new ideas or feedback on how we can be better for our community. <a className ='hover:underline text-[22px] tracking-wider text-tccred' href = "mailto:contact@texascodingclub.com">contact@texascodingclub.com</a></p>
-          <img src={cowboy} alt='' className=' max-w-[300px]' />
-          {/* <div className = "absolute z-[0] w-[50%] h-[50%] left-0 bottom-0 black__gradient" />  */}
-          </div>
-    </div>
 
-        <div className={`flex flex-col items-center py-20 relative`}>
-          <p className =  {` font-stint text-[20px] text-center max-w-[720px]`}>We are local to the Dallas, Fort Worth area. If you would like to contribute to the blog, get a coffee, or join our next study session - send a message, we'll be in touch! </p><GiTexas size={30}
+
+
+
+        <div id='section2' className={`flex flex-col md:flex-row justify-end items-center relative`}>
+
+          <p className='max-w-[480px] font-stint text-[20px] text-center'>Interested in joining the Texas Coding Club? We're a small group open to new developers, new ideas or feedback on how we can be better for our community. <a href = "mailto:contact@texascodingclub.com" className ='hover:underline text-[21px] tracking-wider text-tccred'>contact@texascodingclub.com</a></p>
+
+          <img src={cowboy} alt='' className=' max-w-[300px] w-full m-4' />
+
+          </div>
+          </div>
+          {/* <div className = "absolute z-[0] w-[50%] h-[50%] left-0 bottom-0 black__gradient" />  */}
+
+          
+        <div id='section3' className={`flex flex-col items-center py-20 relative`}>
+          <p className =  {` font-stint text-[20px] text-center max-w-[720px]`}>We are local to the Dallas, Fort Worth area. If you would like to contribute to the blog, get coffee, or join our next study session - send a message, we'll be in touch! </p><GiTexas size={30}
           className='m-2 ' />
-          <img src={contact} alt='' className='w-[500px] m-10' />
+          <img src={contact} alt='' className='w-[500px] ' />
                     <div className = "absolute z-[0] w-[20%] h-[20%] right-0 bottom-0 black__gradient" /> 
                     <div className = "absolute z-[0] w-[10%] h-[10%] top-0 left-0 black__gradient" /> 
         </div>

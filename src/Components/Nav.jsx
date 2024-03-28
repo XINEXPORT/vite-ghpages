@@ -15,7 +15,7 @@ const [toggle, setToggle] = useState(false);
 
           <Link to="/vite-ghpages">
           <img src={altLogo} alt="dm logo" className='w-[240px] cursor-pointer relative z-20'/>
-          <div className = "absolute z-[0] w-[20%] h-[20%] top-0 left-0 black__gradient" /> 
+          <div className = "absolute z-[10] w-[20%] h-[20%] top-0 left-0 black__gradient" /> 
           </Link>
 
     
