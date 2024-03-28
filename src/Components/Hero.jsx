@@ -15,9 +15,9 @@ const Hero = () => {
   return (
     <section id='Home' className={`flex flex-col w-full h-full`}>
 
-    <div id='bio' className={`w-full flex flex-col text-center z-[10] hover:font-bold hover:text-tccred`}>
+    <div id='bio' className={`w-full flex flex-col text-center z-[10] transform hover:scale-105 ease-in-out duration-300`}>
 
-          <div className='uppercase font-stint text-[24px] xs:text-[32px] md:text-[50px] tracking-wide flex flex-col justify-center items-center m-auto rounded-[20px] p-4 '>
+          <div className='uppercase font-stint text-[24px] xs:text-[28px] md:text-[50px] tracking-wide flex flex-col justify-center items-center m-auto rounded-[20px] p-4 '>
             <div className=''>a</div>  
             <div>web development</div> 
             <div className='tracking-widest text-[32px] md:text-[50px]'>blog </div>
@@ -27,9 +27,9 @@ const Hero = () => {
             <div className='font-lobster text-[28px] xs:text-[30px] tracking-widest md:text-[48px] translate -rotate-3 '>Starring 
             </div>
             <div className='font-wellfleet flex justify-center '>
-              <div className='flex flex-1 justify-evenly text-[17px] xs:text-[24px] sm:text-[28px] items-center tracking-tighter max-w-[240px] md:max-w-[320px] md:text-[38px]'>Christine Hoang </div> 
-              <div className='text-[19px] xs:text-[28px] sm:text-[32px] flex items-center md:text-[38px]'>&</div> 
-              <div className='flex flex-1 tracking-wide xs:tracking-widest text-[19px] xs:text-[26px] sm:text-[32px] items-center justify-evenly max-w-[240px] md:max-w-[320px] md:text-[40px]'>Joe Aguado</div>
+              <div className='flex flex-1 justify-evenly text-[16px] xs:text-[20px] sm:text-[28px] items-center tracking-tighter w-[300px] md:text-[38px] :w-[200px]'>Christine Hoang </div> 
+              <div className='text-[18px] xs:text-[28px] sm:text-[30px] flex items-center md:text-[38px]'>&</div> 
+              <div className='flex flex-1 tracking-wider xs:tracking-widest text-[17px] xs:text-[22px] sm:text-[32px] items-center justify-evenly w-[300px]  md:text-[40px]'>Joe Aguado</div>
             </div>
           </div>
 

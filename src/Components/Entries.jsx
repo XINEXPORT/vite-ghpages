@@ -14,7 +14,7 @@ const Entries = ({blogData}) => {
         to = {`in/blog/${post.id}`}
         className=''
           >
-    <div className='flex flex-col'>
+    <div className='flex flex-col w-[140px] sm:w-[200px]'>
       <img src={post.photo} alt='photo' className='' />
             <p className=' sm:text-base font-bold '>{post.title} </p>        
             <p className=''> 
@@ -27,12 +27,12 @@ const Entries = ({blogData}) => {
 
       });
   return (
+<div className={`${styles.padding} flex flex-col items-center h-screen bg-primary`} >
+<h1 className={`${styles.paddingY}  text-5xl font-rye bg-primary`}>Entries</h1>
+<div className={`relative flex flex-wrap bg-primary items-center justify-center`}>
+  {displayBlogs}
 
-<div className={`${styles.padding} flex flex-col items-center h-screen`} >
-  <h1 className={`${styles.paddingY}  text-5xl font-rye`}>Entries</h1>
-    <div className={`relative flex flex-wrap`}>
-      {displayBlogs}
-    <div className = "absolute z-[0] w-[50%] h-[50%] right-0 -bottom-10 black__gradient" /> 
+        <div className = "absolute z-[0] w-[30%] h-[30%] right-0 bottom-10 black__gradient" /> 
 </div>
 
 </div>

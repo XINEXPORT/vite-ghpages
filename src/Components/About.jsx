@@ -41,26 +41,36 @@ console.log(aboutData)
     <div className={`${styles.padding} ss:bg-primary flex flex-col md:flex-row justify-center items-center text-center`}>
 
       {aboutData.map((person) => (
-                <div key={person.id} className='flex flex-col items-center max-w-[600px] m-8 py-10'>
+                <div key={person.id} className='flex flex-col items-center max-w-[600px] m-8'>
 
 
-                  
+                
                 <img src={person.img} alt={person.name} className='w-[180px] rounded-full ring-2 p-1 border-black border-2 ring-tccred' />
 
-
-                <h1 className='font-semibold ss:text-[30px] text-[30px] font-wellfleet'>{person.name}</h1>
-
-
-
-
-                <p className={`${styles.paragraph} text-[18px] font-stint`}>{person.bio}</p>
-              
-                <div className='flex p-4'>
+                <div>
+                <h1 className='font-semibold ss:text-[30px] text-[30px] font-wellfleet pt-4'>{person.name}</h1>
+                <div className='flex p-4 items-center justify-center md:hidden'>
             {person.links.map((link, index) => (
               <a key={index} href={link.url} target='_blank' rel='noopener noreferrer'>
                 {link.icon && <link.icon 
                 size={40}
-                className='mx-4'
+                className='mx-4 text-tccred'
+                />} 
+              </a>
+            ))}
+          </div>
+                </div>
+
+
+
+                <p className={`${styles.paragraph} text-[21px] font-stint`}>{person.bio}</p>
+              
+                <div className='flex p-4 hidden md:flex'>
+            {person.links.map((link, index) => (
+              <a key={index} href={link.url} target='_blank' rel='noopener noreferrer'>
+                {link.icon && <link.icon 
+                size={40}
+                className='mx-4 text-tccred'
                 />} 
               </a>
             ))}

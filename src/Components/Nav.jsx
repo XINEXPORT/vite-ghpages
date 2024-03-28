@@ -15,7 +15,7 @@ const [toggle, setToggle] = useState(false);
 
           <Link to="/vite-ghpages">
           <img src={altLogo} alt="dm logo" className='w-[240px] cursor-pointer relative z-20'/>
-          <div className = "absolute z-[0] w-[20%] h-[20%] top-0 left-0 black__gradient" /> 
+          <div className = "absolute z-[10] w-[20%] h-[20%] top-0 left-0 black__gradient" /> 
           </Link>
 
     
@@ -23,7 +23,7 @@ const [toggle, setToggle] = useState(false);
           <ul className='h-full list-none flex flex-col items-end sm:flex-row w-full justify-end font-wellfleet text-[22px] sm:text-[28px] xs:tracking-wider '>
 
 
-            <li className='mb-4 hover:text-tccred duration-300 ease-in-out'>
+            <li className='mb-4  duration-300 ease-in-out hover:scale-110'>
             <Link to="/vite-ghpages">Home</Link>
             </li>
 
