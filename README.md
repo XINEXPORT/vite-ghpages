@@ -1,5 +1,5 @@
 # View site here
-https://xinexport.github.io/vite-ghpages/
+https://www.texascodingclub.com/
 
 Texas Coding Club is a collaborative blog site created by Joe Aguado and Christine Hoang. 
 
