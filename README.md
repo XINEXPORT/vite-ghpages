@@ -10,6 +10,7 @@ This blog covers topics, such as:
 * Sharing projects
 * Job hunting tips and tricks
 * Personal anecdotes related to technolgy
+* Interviews
 
 # Resources
 - https://www.youtube.com/watch?v=tg-Xgx-lqXM
