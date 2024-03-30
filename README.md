@@ -1,7 +1,7 @@
 # View site here
 https://www.texascodingclub.com/
 
-Texas Coding Club is a collaborative blog site created by Joe Aguado and Christine Hoang. 
+Texas Coding Club is a western themed, collaborative blog site created by Joe Aguado and Christine Hoang. 
 
 This blog covers topics, such as:
 * Sharing new technologies
