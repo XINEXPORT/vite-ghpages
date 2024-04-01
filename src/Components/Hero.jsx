@@ -27,8 +27,8 @@ const Hero = () => {
             <div className='font-lobster text-[28px] xs:text-[30px] tracking-widest md:text-[48px] translate -rotate-3 '>Starring 
             </div>
             <div className='font-wellfleet flex justify-center '>
-              <div className='flex flex-1 justify-evenly text-[16px] xs:text-[20px] sm:text-[28px] items-center tracking-tighter w-[300px] md:text-[38px] :w-[200px]'>Christine Hoang </div> 
-              <div className='text-[18px] xs:text-[28px] sm:text-[30px] flex items-center md:text-[38px]'>&</div> 
+              <div className='flex flex-1 justify-evenly text-[16px] xs:text-[20px] sm:text-[28px] items-center tracking-tighter w-[300px] md:text-[38px] :w-[200px]'>Christine Hoang</div> 
+              <div className='text-[18px] xs:text-[28px] sm:text-[30px] flex items-center md:text-[38px]'> &</div> 
               <div className='flex flex-1 tracking-wider xs:tracking-widest text-[17px] xs:text-[22px] sm:text-[32px] items-center justify-evenly w-[300px]  md:text-[40px]'>Joe Aguado</div>
             </div>
           </div>
