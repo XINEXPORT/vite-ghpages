@@ -45,15 +45,15 @@ console.log(aboutData)
 
 
                 
-                <img src={person.img} alt={person.name} className='w-[180px] rounded-full ring-2 p-1 border-black border-2 ring-tccred' />
+                <img src={person.img} alt={person.name} className='w-[120px] sm:w-[160px] rounded-full ring-2 p-1 border-black border-2 ring-tccred' />
 
                 <div>
-                <h1 className='font-semibold ss:text-[30px] text-[30px] font-wellfleet pt-4'>{person.name}</h1>
+                <h1 className='font-semibold ss:text-[30px] text-[24px] font-wellfleet pt-4'>{person.name}</h1>
                 <div className='flex p-4 items-center justify-center md:hidden'>
             {person.links.map((link, index) => (
               <a key={index} href={link.url} target='_blank' rel='noopener noreferrer'>
                 {link.icon && <link.icon 
-                size={40}
+                size={35}
                 className='mx-4 text-tccred'
                 />} 
               </a>
@@ -63,7 +63,7 @@ console.log(aboutData)
 
 
 
-                <p className={`${styles.paragraph} text-[21px] font-stint`}>{person.bio}</p>
+                <p className={`${styles.paragraph}`}>{person.bio}</p>
               
                 <div className='flex p-4 hidden md:flex'>
             {person.links.map((link, index) => (

@@ -16,7 +16,7 @@ return (
       <h4 className="">Written by: <span className='normal-case'>{firstName} {lastName}</span></h4>  
       <h5 className=''>Date: {date}</h5>
     </div>
-<p className =  {`text-[18px] font-stint tracking-wide`}>{content}</p>
+<p className =  {``}>{content}</p>
 
 
 

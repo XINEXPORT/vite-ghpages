@@ -13,7 +13,7 @@ const [toggle, setToggle] = useState(false);
   return (
     <nav className={`z-[100] w-full flex items-center bg-primary overflow-hidden p-2 sm:px-8`}>
 
-          <Link to="/vite-ghpages">
+          <Link to="/">
           <img src={altLogo} alt="dm logo" className='w-[240px] cursor-pointer relative z-20'/>
           <div className = "absolute z-[10] w-[20%] h-[20%] top-0 left-0 black__gradient" /> 
           </Link>
@@ -23,19 +23,19 @@ const [toggle, setToggle] = useState(false);
           <ul className='h-full list-none flex flex-col items-end sm:flex-row w-full justify-end font-wellfleet text-[22px] sm:text-[28px] xs:tracking-wider '>
 
 
-            <li className='mb-4  duration-300 ease-in-out hover:scale-110'>
-            <Link to="/vite-ghpages">Home</Link>
+            <li className='mb-4 text-green-500 duration-300 ease-in-out hover:text-tccred'>
+            <Link to="/">Home</Link>
             </li>
 
 
-            <li className='mb-4 xs:pl-10 lg:pl-20 transform hover:scale-110'>
-            <Link to="in/entries">Entries</Link>
+            <li className='mb-4 xs:pl-10 lg:pl-20 duration-300 ease-in-out hover:text-tccred'>
+            <Link to="in/entries">Blog</Link>
             </li>
 
-          <li className={`mb-4 xs:pl-10 lg:pl-20 transform hover:rotate-6`}>
+          <li className={`mb-4 xs:pl-10 lg:pl-20 duration-300 ease-in-out hover:text-tccred`}>
             <Link to="in/about">About</Link>
           </li>
-          <li className={`mb-4 xs:pl-10 lg:pl-20 transform duration-300 ease-in-out hover:text-tccred hover:scale-110`}>
+          <li className={`mb-4 xs:pl-10 lg:pl-20 duration-300 ease-in-out hover:text-tccred`}>
             <Link to="in/contact">Contact</Link>
           </li>
           </ul>

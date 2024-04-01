@@ -33,7 +33,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
 
   <Route 
-  path = "vite-ghpages/" 
+  path = "/" 
   element={<App />}
   errorElement={<ErrorPage />}
   // loader={() => markdownContent}

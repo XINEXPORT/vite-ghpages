@@ -65,9 +65,9 @@ const [success, setSuccess] = useState(false);
                 </p>
 
               <div className='flex items-center justify-center p-4'>
-                <a href='https://www.instagram.com/texascodingclub/' className=''><RiInstagramFill size={40} className='text-tccred'/> </a> 
-                <a href='https://www.linkedin.com/company/texas-coding-club/' className='ml-8'><FaLinkedin size={40} className='text-tccred'/></a>
-                <a href='https://www.linkedin.com/company/texas-coding-club/' className='ml-8'><IoIosMail size={40} className='text-tccred'/></a>
+                <a href='https://www.instagram.com/texascodingclub/' className='' target='_blank' rel='noopener noreferrer'><RiInstagramFill size={40} className='text-tccred'/> </a> 
+                <a href='https://www.linkedin.com/company/texas-coding-club/' className='ml-8' target='_blank' rel='noopener noreferrer'><FaLinkedin size={40} className='text-tccred'/></a>
+                <a href='https://www.linkedin.com/company/texas-coding-club/' className='ml-8' ><IoIosMail size={40} className='text-tccred'/></a>
               </div>
 
           </div>
@@ -78,7 +78,7 @@ const [success, setSuccess] = useState(false);
 
         <div id='section2' className={`flex flex-col md:flex-row justify-end items-center relative`}>
 
-          <p className='max-w-[480px] font-stint text-[20px] text-center'>Interested in joining the Texas Coding Club? We're a small group open to new developers, new ideas or feedback on how we can be better for our community. <a href = "mailto:contact@texascodingclub.com" className ='hover:underline text-[21px] tracking-wider text-tccred'>contact@texascodingclub.com</a></p>
+          <p className='max-w-[480px] font-stint text-[20px] text-center'>Interested in joining the Texas Coding Club? We're a small group open to new developers, new ideas or feedback on how we can be better for our community. <a href = "mailto:contact@texascodingclub.com" className ='hover:underline text-[18px] tracking-wider text-tccred'>contact@texascodingclub.com</a></p>
 
           <img src={cowboy} alt='' className=' max-w-[300px] w-full m-4' />
 
