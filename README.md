@@ -1,7 +1,7 @@
 # View site here
-https://xinexport.github.io/vite-ghpages/
+https://www.texascodingclub.com/
 
-Texas Coding Club is a collaborative blog site created by Joe Aguado and Christine Hoang. 
+Texas Coding Club is a western themed, collaborative blog site created by Joe Aguado and Christine Hoang. 
 
 This blog covers topics, such as:
 * Sharing new technologies
@@ -10,6 +10,7 @@ This blog covers topics, such as:
 * Sharing projects
 * Job hunting tips and tricks
 * Personal anecdotes related to technolgy
+* Interviews
 
 # Resources
 - https://www.youtube.com/watch?v=tg-Xgx-lqXM
