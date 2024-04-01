@@ -4,10 +4,13 @@ import styles from '../styles'
 
 const Blog = () => {
 
-const {title, writer, date, content, firstName, lastName, content1, content2, content3, content4, photo} = useLoaderData()
+const {title, writer, date, content, firstName, lastName, photo} = useLoaderData()
+
+//split paragraphs when a double space is found in content
+const paragraph = content.split(/\  /);
 
 return (
-<section className={`prose ${styles.padding} pt-10 `}>
+<section className={`prose-sm md:leading-10${styles.padding} pt-10 `}>
 
 
 <div className=''>
@@ -16,10 +19,13 @@ return (
       <h4 className="">Written by: <span className='normal-case'>{firstName} {lastName}</span></h4>  
       <h5 className=''>Date: {date}</h5>
     </div>
-<p className =  {`text-[18px] font-stint tracking-wide`}>{content}</p>
-
-
-
+    <div className = ''>
+    {paragraph.map((paragraph, index)=>(
+      <p key={index} className = {`text-[18px] font-helvetica tracking-wide`}>
+        {paragraph}
+        </p>
+    ))}
+    </div>
      <Link to='/vite-ghpages/in/about' className='no-underline'><p className='font-lobster hover:text-tccred text-[24px] flex justify-end pr-20 no-underline'>-{firstName}</p>
    </Link>
 
