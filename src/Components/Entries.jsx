@@ -8,13 +8,13 @@ const Entries = ({blogData}) => {
 
 
     const displayBlogs = blogData.map((post) => {
-        return <div key={post.id} className='max-w-[220px] m-4 items-center text-center'>
+        return <div key={post.id} className='p-4 items-center text-center'>
         <Link 
         to = {`in/blog/${post.id}`}
         className=''
         >
-    <div className='flex flex-col w-[140px] sm:w-[200px]'>
-      <img src={post.photo} alt='photo' className='' />
+    <div className='w-[120px] flex flex-col  sm:w-[200px] '>
+      <img src={post.photo} alt='photo' className='w-full' />
             <p className='sm:text-base font-bold'>{post.title} </p>        
             <p> {post.firstName} {post.lastName}</p> 
             <p className='text-sm sm:text-sm'>{post.date}</p>

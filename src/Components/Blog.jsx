@@ -10,23 +10,26 @@ const {title, writer, date, content, firstName, lastName, photo} = useLoaderData
 const paragraph = content.split(/\  /);
 
 return (
-<section className={`prose-sm md:leading-10${styles.padding} pt-10 `}>
+<section className={`${styles.padding} flex flex-col items-center`}>
 
 
-<div className=''>
+<div className='prose'>
     <div className="font-wellfleet">
       <h1 className="">{title}</h1>
       <h4 className="">Written by: <span className='normal-case'>{firstName} {lastName}</span></h4>  
       <h5 className=''>Date: {date}</h5>
     </div>
+
+
     <div className = ''>
     {paragraph.map((paragraph, index)=>(
-      <p key={index} className = {`text-[18px] font-helvetica tracking-wide`}>
+      <p key={index} className = {``}>
         {paragraph}
         </p>
     ))}
     </div>
-     <Link to='/vite-ghpages/in/about' className='no-underline'><p className='font-lobster hover:text-tccred text-[24px] flex justify-end pr-20 no-underline'>-{firstName}</p>
+
+     <Link to='/in/about' className='no-underline'><p className='font-lobster hover:text-tccred text-[24px] flex justify-end pr-20 no-underline'>-{firstName}</p>
    </Link>
 
 <div className='flex flex-col items-center'>
