@@ -14,7 +14,7 @@ return (
 
 
 <div className=''>
-    <div className="font-wellfleet">
+    <div className="font-wellfleet ">
       <h1 className="">{title}</h1>
       <h4 className="">Written by: <span className='normal-case'>{firstName} {lastName}</span></h4>  
       <h5 className=''>Date: {date}</h5>
@@ -26,7 +26,7 @@ return (
         </p>
     ))}
     </div>
-     <Link to='/vite-ghpages/in/about' className='no-underline'><p className='font-lobster hover:text-tccred text-[24px] flex justify-end pr-20 no-underline'>-{firstName}</p>
+     <Link to='/vite-ghpages/in/about' className='no-underline'><p className='font-lobster hover:text-tccred duration-100 text-[24px] flex justify-end pr-20 no-underline'>-{firstName}</p>
    </Link>
 
 <div className='flex flex-col items-center'>

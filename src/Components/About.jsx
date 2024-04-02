@@ -70,7 +70,7 @@ console.log(aboutData)
               <a key={index} href={link.url} target='_blank' rel='noopener noreferrer'>
                 {link.icon && <link.icon 
                 size={40}
-                className='mx-4 text-tccred'
+                className='mx-4 text-tccred hover:text-amber-950 duration-100'
                 />} 
               </a>
             ))}

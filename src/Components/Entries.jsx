@@ -13,7 +13,7 @@ const Entries = ({blogData}) => {
         to = {`in/blog/${post.id}`}
         className=''
         >
-    <div className='flex flex-col w-[140px] sm:w-[200px]'>
+    <div className='flex flex-col w-[140px] sm:w-[200px] transition duration-500 hover:scale-110 '>
       <img src={post.photo} alt='photo' className='' />
             <p className='sm:text-base font-bold'>{post.title} </p>        
             <p> {post.firstName} {post.lastName}</p> 

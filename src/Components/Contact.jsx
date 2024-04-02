@@ -63,9 +63,9 @@ const [success, setSuccess] = useState(false);
                 </p>
 
               <div className='flex items-center justify-center p-4'>
-                <a href='https://www.instagram.com/texascodingclub/' className=''><RiInstagramFill size={40} className='text-tccred'/> </a> 
-                <a href='https://www.linkedin.com/company/texas-coding-club/' className='ml-8'><FaLinkedin size={40} className='text-tccred'/></a>
-                <a href='mailto:contact@texascodingclub.com' className='ml-8'><IoIosMail size={40} className='text-tccred'/></a>
+                <a href='https://www.instagram.com/texascodingclub/' className=''><RiInstagramFill size={40} className='text-tccred hover:text-amber-950 duration-100'/> </a> 
+                <a href='https://www.linkedin.com/company/texas-coding-club/' className='ml-8'><FaLinkedin size={40} className='text-tccred hover:text-amber-950 duration-100'/></a>
+                <a href='mailto:contact@texascodingclub.com' className='ml-8'><IoIosMail size={40} className='text-tccred hover:text-amber-950 duration-100'/></a>
               </div>
 
           </div>
