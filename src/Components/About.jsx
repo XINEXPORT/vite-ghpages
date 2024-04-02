@@ -36,7 +36,7 @@ const About = ({aboutData}) => {
 console.log(aboutData)
 
   return (
-    <section className={` flex flex-col items-center`}>
+    <section className={` flex flex-col items-center sm:h-screen`}>
       <h1 className={`font-rye text-[40px] tracking-widest`}>About</h1>
     <div className={`${styles.padding} ss:bg-primary flex flex-col md:flex-row justify-center items-center text-center`}>
 
@@ -63,7 +63,10 @@ console.log(aboutData)
 
 
 
-                <p className={`${styles.paragraph}`}>{person.bio}</p>
+
+
+                <p className={`${styles.paragraph} text-[21px] prose`}>{person.bio}</p>
+
               
                 <div className='flex p-4 hidden md:flex'>
             {person.links.map((link, index) => (
