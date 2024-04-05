@@ -80,7 +80,7 @@ export const CHLinks = [
 },
 {
   id: 2,
-  title: "Video Editing is Underated",
+  title: "Video Editing is Underrated",
   date: 'March, 4, 2024',
   firstName: "Christine",
   lastName: "Hoang",
@@ -129,3 +129,4 @@ export const CHLinks = [
   url: "https://www.instagram.com/texascodingclub/"
 }
  ]
+
