@@ -23,7 +23,7 @@ return (
 
     <div className = ''>
     {paragraph.map((paragraph, index)=>(
-      <p key={index} className = {``}>
+      <p key={index} className = {``} style={{ textIndent: '2em' }}>
         {paragraph}
         </p>
     ))}

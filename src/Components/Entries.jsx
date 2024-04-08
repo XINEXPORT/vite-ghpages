@@ -8,29 +8,29 @@ const Entries = ({blogData}) => {
 
 
     const displayBlogs = blogData.map((post) => {
-        return <div key={post.id} className='p-4 items-center text-center'>
+        return <div key={post.id} className=''>
         <Link 
         to = {`in/blog/${post.id}`}
         className=''
         >
-    <div className='w-[120px] flex flex-col  sm:w-[200px] '>
+    <div className='w-[150px] sm:w-[200px] flex flex-col'>
       <img src={post.photo} alt='photo' className='w-full' />
-            <p className='sm:text-base font-bold'>{post.title} </p>        
-            <p> {post.firstName} {post.lastName}</p> 
-            <p className='text-sm sm:text-sm'>{post.date}</p>
+            <p className='font-bold text-[20px] leading-none'>{post.title} </p>        
+            <p className='text-[16px] sm:text-[18px] leading-none pt-2'> {post.firstName} {post.lastName}</p> 
+            <p className='text-[14px] sm:text-[16px] leading-none pt-1'>{post.date}</p>
     </div>
             </Link>
     </div>
 
       });
   return (
-    <div className={`${styles.padding} flex flex-col items-center relative md:h-screen`} >
-    <h1 className={`${styles.paddingY}  text-5xl font-rye bg-primary`}>Entries</h1>
-      <div className={`relative flex flex-wrap bg-primary items-center justify-center`}>
+    <section className={`${styles.padding} flex flex-col items-center`} >
+    <h1 className={`${styles.paddingY} text-5xl font-rye`}>Entries</h1>
+      <div className={`grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-20`}>
         {displayBlogs}
-      <div className = "absolute z-[0] w-[30%] h-[30%] right-0 bottom-10 black__gradient" /> 
+      {/* <div className = "absolute z-[0] w-[30%] h-[30%] right-0 bottom-10 black__gradient" />  */}
     </div>
-</div>
+</section>
   )
 }
 

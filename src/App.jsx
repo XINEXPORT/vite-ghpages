@@ -8,17 +8,17 @@ import BlogTest from './Components/BlogTest.jsx';
 
 export default function App() {
   return (
-    <div className= {`w-full bg-primary`}>
+    <div className= {`w-full h-full bg-primary`}>
       
-      <div className = {`  ${styles.flexCenter} bg-primary`} >
+      <div className = {`${styles.flexCenter} `} >
         
-        <div className={`${styles.boxWidth} bg-primary`}>
+        <div className={`${styles.boxWidth}`}>
           <Nav />
         </div>
       </div>
 
       <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth} bg-primary`}>
+        <div className={`${styles.boxWidth}`}>
           <Outlet 
           className=''
           />

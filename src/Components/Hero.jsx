@@ -13,12 +13,12 @@ import redClouds from '../images/redCloud.svg'
 
 const Hero = () => {
   return (
-    <section id='Home' >
+    <section id='Home' className='w-full h-screen' >
 
-    <div id='bio' className={`w-full flex flex-col text-center z-[10] `}>
+    <div id='bio' className={`w-full flex flex-col text-center z-[10]`}>
 
         <Link to='in/entries'>
-          <div className='uppercase font-stint text-[24px] xs:text-[28px] md:text-[50px] tracking-wide flex flex-col justify-center items-center m-auto rounded-[20px] transform md:hover:scale-110 ease-in-out duration-300'>
+          <div className='uppercase font-stint text-[24px] xs:text-[28px] md:text-[50px] tracking-wide flex flex-col justify-center items-center m-auto rounded-[20px] '>
             <div className=''>a</div>  
             <div>web development</div> 
             <div className='tracking-widest text-[32px] md:text-[50px]'>blog </div>
@@ -26,7 +26,7 @@ const Hero = () => {
         </Link>
 
         <Link to='in/about'>
-          <div className='rounded-[20px] flex flex-col m-auto justify-center items-center w-full transform md:hover:scale-110 ease-in-out duration-300'>
+          <div className='rounded-[20px] flex flex-col m-auto justify-center items-center w-full '>
             <div className='font-lobster text-[30px] xs:text-[30px] tracking-widest md:text-[48px] translate -rotate-3 w-full'>Starring 
             </div>
             <div className='font-wellfleet flex justify-evenly w-full xs:max-w-[500px] md:max-w-[700px]'>

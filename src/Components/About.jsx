@@ -36,25 +36,30 @@ const About = ({aboutData}) => {
 console.log(aboutData)
 
   return (
-    <section className={` flex flex-col items-center sm:h-screen`}>
+    <section className={` flex flex-col items-center bg-primary`}>
       <h1 className={`font-rye text-[40px] tracking-widest`}>About</h1>
-    <div className={`${styles.padding} ss:bg-primary flex flex-col md:flex-row justify-center items-center text-center`}>
 
+      <div>
+        <p>
+          The Texas Coding Club blog was started as a collaboration project between two web development students. <a href='#contact' className='text-tccred'>contact</a>.
+        </p>
+      </div>
+
+
+
+    <div className={`ss:bg-primary flex flex-col md:flex-row justify-center items-center text-center`}>
       {aboutData.map((person) => (
-                <div key={person.id} className='flex flex-col items-center max-w-[600px] m-8'>
-
-
-                
+                <div key={person.id} className='flex flex-col items-center max-w-[600px] p-10'>
                 <img src={person.img} alt={person.name} className='w-[120px] sm:w-[160px] rounded-full ring-2 p-1 border-black border-2 ring-tccred' />
 
                 <div>
-                <h1 className='font-semibold ss:text-[30px] text-[24px] font-wellfleet pt-4'>{person.name}</h1>
-                <div className='flex p-4 items-center justify-center md:hidden'>
+                <h1 className='font-semibold ss:text-[30px] text-[24px] font-wellfleet pt-2'>{person.name}</h1>
+                <div className='flex items-center justify-center md:hidden'>
             {person.links.map((link, index) => (
               <a key={index} href={link.url} target='_blank' rel='noopener noreferrer'>
                 {link.icon && <link.icon 
                 size={35}
-                className='mx-4 text-tccred'
+                className='m-2 text-tccred '
                 />} 
               </a>
             ))}
@@ -65,15 +70,15 @@ console.log(aboutData)
 
 
 
-                <p className={`${styles.paragraph} text-[21px] prose`}>{person.bio}</p>
+                <p className={`${styles.paragraph} prose`}>{person.bio}</p>
 
               
-                <div className='flex p-4 hidden md:flex'>
+                <div className='hidden md:flex'>
             {person.links.map((link, index) => (
               <a key={index} href={link.url} target='_blank' rel='noopener noreferrer'>
                 {link.icon && <link.icon 
                 size={40}
-                className='mx-4 text-tccred'
+                className='m-2 text-tccred'
                 />} 
               </a>
             ))}
