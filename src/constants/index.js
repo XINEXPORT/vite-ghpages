@@ -112,7 +112,7 @@ export const CHLinks = [
   lastName: "Hoang",
   photo: boots,
   date: "March 26, 2024",
-  content: "upcoming soon"
+  content: "I will be making a post about this soon."
 }
 
  ]
